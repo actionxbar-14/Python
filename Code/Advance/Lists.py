@@ -1,5 +1,6 @@
 # :: List :-
 
+
 # - A List in python is a collection of items(elements) that are oredered , changable(mutable) , and allow duplicate elements.
 
 # - List are one of the most versatile data structures in python and are used to store multiple items in a single variable.
@@ -13,7 +14,7 @@
 
 
 
-# ___________________________________________________________________________
+# __________________________________________________________________________
 
 
 
@@ -48,7 +49,14 @@
 
 
 
+
+# __________________________________________________________________________
+
+
+
 # :: Accessing List Elements - [ List Indexing ] :-
+
+
 
 
 # -You can Access elements in a list by referring to their index. Python uses zero-based Indexing , meaning the first elements has an index of 0.
@@ -154,13 +162,15 @@
 
 
 
-# ___________________________________________________________________________
+# __________________________________________________________________________
 
 
 
 
 
 # :: List Methods : 
+
+
 
 # - Python provides sevreral built - in - methods to modify and operate on lists.
 
@@ -349,6 +359,11 @@
 
 
 
+
+
+
+
+
 # 11. copy() : Returns a shallow copy of the list.
 
 # Ex:
@@ -368,7 +383,7 @@
 
 
 
-# ___________________________________________________________________________
+# __________________________________________________________________________
 
 
 
@@ -407,12 +422,15 @@
 
 
 
-# ___________________________________________________________________________
+# __________________________________________________________________________
 
 
 
 
 # ::List Comprehensions : 
+
+
+
 
 # - List Comprehensions provide a Concise way to create lists. They consist of brackets containing an expression followed by a for clause , and optionally if clause.
 
@@ -458,10 +476,14 @@
 # Output : [1, 2, 3, 4, 5, 6]
 
 
-# ___________________________________________________________________________
+# __________________________________________________________________________
+
+
 
 
 # :: Iterating Over Lists :
+
+
 
 # Iterating allows you to traverse each element in a list , typically using loops
 
