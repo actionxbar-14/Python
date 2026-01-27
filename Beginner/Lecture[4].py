@@ -1,4 +1,8 @@
 
+                        # TOPIC : Type Casting in Python
+
+
+
 # Type Casting : it is uses to convert a value from one data type to another.
 
 # - int() : converts a value to an integer.

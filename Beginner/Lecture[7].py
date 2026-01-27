@@ -1,3 +1,9 @@
+
+                      # TOPIC : Operators in Python
+
+
+
+
 # Operators : 
 
 # 1. Arithmetic Operators.
@@ -12,7 +18,7 @@
 
 # [ Operators      -     Description ]
 
-# ()                     Parentheses
+# ()                    Parentheses
 # **                    Exponentiation
 # + , - , ~             Positive-Addition , Negative-Subtraction , BitWise NOT.
 # * , / , // , %        Multiplication , Divison , Floor Divison , Modulus.
@@ -23,16 +29,16 @@
 
 
 
-# 1. Arithmetic Operators : Precedence( PEMDAS)
+# 1. Arithmetic Operators : Precedence(PEMDAS)
 
-# Operator          Name             Example ( a = 5, b = 3)
-# +                 Addition          a + b  #o/p : 8
-# -                 Subtraction       a - b  #o/p : 2
-# *                 Multiplication   a * b  #o/p : 15
-# /                 Division          a / b  #o/p : 1.666666666666666
-# //                Floor Division    a // b  #o/p : 1
-# %                 Modulus          a % b  #o/p : 2
-# **                Exponentiation   a ** b  #o/p : 25
+# Operator          Name                    Example ( a = 5, b = 3)
+# +                 Addition                    a + b  #o/p : 8
+# -                 Subtraction                 a - b  #o/p : 2
+# *                 Multiplication              a * b  #o/p : 15
+# /                 Division                    a / b  #o/p : 1.666666666666666
+# //                Floor Division              a // b  #o/p : 1
+# %                 Modulus                     a % b  #o/p : 2
+# **                Exponentiation              a ** b  #o/p : 25
 
 
 # 2. Comparison ( Relational ) Operators :

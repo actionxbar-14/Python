@@ -1,3 +1,10 @@
+                        #   TOPIC : Introduction to Python Programming.
+
+
+
+
+
+
 a = "Anubhav"
 print(a);
 
@@ -44,7 +51,7 @@ print(p,q,r)
 # :: Ways to declare a variable name :
 MyName = "Anubhav"  # Pascal case.
 myName = "Anubhav"  # Camel case.
-nyname = "Anubhav"  # flat case.
+myname = "Anubhav"  # flat case.
 my_name = "Anubhav" # snake case.
 
 
@@ -65,6 +72,8 @@ my_name_123 = "Anubhav"
 ex:
 myname = "AnubhavPathak"
 print(myName)
+
+# output : error
 
 
 4. variables name cant be a reserved word.

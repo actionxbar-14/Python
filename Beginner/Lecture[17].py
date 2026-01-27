@@ -1,3 +1,9 @@
+
+                        # TOPIC : Pattern Printing
+
+
+
+
 # :: HERE ARE THE ALL POSSIBLE BASIC PATTERN OF MIX NUMBER AND ALPHABET OR STAR ARE PRESENT.
 
 
@@ -24,13 +30,13 @@
 # :: 2 Right Angle Star Pattern:
 
 
-# n = int(input("enter n:"))
-# for i in range(n):
-#     for j in range(i):
-#           print(" * ", end = " ")
-#           j+=1
-#     i+=1
-#     print("  ")
+n = int(input("enter n:"))
+for i in range(n):
+    for j in range(i):
+          print(" * ", end = " ")
+          j+=1
+    i+=1
+    print("  ")
 
 # output:
 
