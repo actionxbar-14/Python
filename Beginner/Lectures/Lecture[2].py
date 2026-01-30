@@ -1,4 +1,4 @@
-                         # TOPIC :  Variables in Python
+                         # TOPIC :  Data Types in Python
 
 
 
@@ -6,21 +6,30 @@
 
 
 
-# my_name = "Anubhav"
-# print(type(my_name))  #output : <class 'str'>
+my_name = "Anubhav"
+print(type(my_name))  #output : <class 'str'>
 
-# value = 100
-# print(type(value))    #output : <class 'int'>
+value = 100
+print(type(value))    #output : <class 'int'>
 
 
-# BASIC DATA TYPE IN PYTHON :- 6
 
-# 1. Numeric : int , float , complex
-# 2. Sequence : String , List , Tuple
-# 3. Mapping : Dictionary
-# 4. Set : Set
-# 5. Boolean : bool
+
+# BASIC DATA TYPE IN PYTHON :- [6]
+
+
+
+# 1. Numeric : int , float , complex.
+# 2. Sequence : String , List , Tuple.
+# 3. Mapping : Dictionary.
+# 4. Set : Set.
+# 5. Boolean : bool.
 # 6. Binary : Bytes , Bytearray , Memory.
+
+
+
+
+
 
 
 # 1. Numeric : int , float , complex.
@@ -43,6 +52,13 @@ f = 5
 g = complex(3,5)  # 3+5j
 print(g)  # output : (3+5j)
 print(type(g))  #  <class 'complex'>
+
+
+
+
+
+
+
 
 
 # 2. Sequence : String , List , Tuple.
@@ -68,20 +84,53 @@ print(b3) # output : (1, True, 'Anubhav')
 print(type(b3))  # output : <class 'tuple'>  
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 #  3. Mapping : Dictionary - > {key , value} pair.
 #  - Dictionary : {key : value }
 
-my_dict = { 'name' : "Anubhav" , 'age' : 20 , 'city' : 'Rajpura'}
+my_dict = { 'name' : "Anubhav" , 'age' : 21 , 'city' : 'Rajpura'}
 print(my_dict)  # output : {'name': 'Anubhav', 'age': 20, 'city': 'Rajpura'}
 print(type(my_dict)) # output : <class 'dict'>
 
 
-# 4. Set : Set
+
+
+
+
+
+
+
+
+
+
+
+
+# 4. Set : Set {}
 # - Set : {value1 , value2 , value3}
 
 my_sets = {1,2,'anubhav'}
 print(my_sets)  # output : {1, 2, 'anubhav'}
 print(type(my_sets)) # output : <class 'set'>
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,154 @@
+
+                         Python Features
+
+reference_link : https://www.tutorialspoint.com/python/python_features.htm
+
+
+
+1. Easy to Learn :
+
+- This is one of the most important reasons for the popularity of Python. Python has a limited set of keywords. Its features such as simple syntax, usage of indentation to avoid clutter of curly brackets and dynamic typing that doesn't necessitate prior declaration of variable help a beginner to learn Python quickly and easily.
+
+
+
+
+
+
+2.Dynamically Typed :
+
+- Python is a dynamically typed programming language. In Python, you don't need to specify the variable time at the time of the variable declaration. The types are specified at the runtime based on the assigned value due to its dynamically typed feature.
+
+
+
+
+
+
+
+
+3.Interpreter Based :
+
+- Instructions in any programming languages must be translated into machine code for the processor to execute them. Programming languages are either compiler based or interpreter based.
+
+- In case of a compiler, a machine language version of the entire source program is generated. The conversion fails even if there is a single erroneous statement. Hence, the development process is tedious for the beginners. The C family languages (including C, C++, Java, C# etc) are compiler based.
+
+- Python is an interpreter based language. The interpreter takes one instruction from the source code at a time, translates it into machine code and executes it. Instructions before the first occurrence of error are executed. With this feature, it is easier to debug the program and thus proves useful for the beginner level programmer to gain confidence gradually. Python therefore is a beginner-friendly language.
+
+
+
+
+
+
+4.Interactive : 
+
+- Standard Python distribution comes with an interactive shell that works on the principle of REPL (Read Evaluate Print Loop). The shell presents a Python prompt >>>. You can type any valid Python expression and press Enter. Python interpreter immediately returns the response and the prompt comes back to read the next expression.
+
+>>> 2*3+1
+7
+>>> print ("Hello World")
+Hello World
+
+
+
+
+
+
+
+
+5.Multi-paradigm :
+
+- Python is a completely object-oriented language. Everything in a Python program is an object. However, Python conveniently encapsulates its object orientation to be used as an imperative or procedural language such as C. Python also provides certain functionality that resembles functional programming. Moreover, certain third-party tools have been developed to support other programming paradigms such as aspect-oriented and logic programming.
+
+
+
+
+
+
+
+
+6.Standard Library :
+
+- Even though it has a very few keywords (only Thirty Five), Python software is distributed with a standard library made of large number of modules and packages. Thus Python has out of box support for programming needs such as serialization, data compression, internet data handling, and many more. Python is known for its batteries included approach.
+
+- Some of the Python's popular modules are:
+
+NumPy
+Pandas
+Matplotlib
+Tkinter
+Math
+
+
+
+
+
+
+
+
+7.Open Source and Cross Platform : 
+
+- Python's standard distribution can be downloaded from https://www.python.org/downloads/ without any restrictions. You can download pre-compiled binaries for various operating system platforms. In addition, the source code is also freely available, which is why it comes under open source category.
+
+- Python software (along with the documentation) is distributed under Python Software Foundation License. It is a BSD style permissive software license and compatible to GNU GPL (General Public License).
+
+- Python is a cross-platform language. Pre-compiled binaries are available for use on various operating system platforms such as Windows, Linux, Mac OS, Android OS. The reference implementation of Python is called CPython and is written in C. You can download the source code and compile it for your OS platform.
+
+- A Python program is first compiled to an intermediate platform independent byte code. The virtual machine inside the interpreter then executes the byte code. This behaviour makes Python a cross-platform language, and thus a Python program can be easily ported from one OS platform to other.
+
+
+
+
+
+
+
+
+8.GUI Applications : 
+
+- Python's standard distribution has an excellent graphics library called TKinter. It is a Python port for the vastly popular GUI toolkit called TCL/Tk. You can build attractive user-friendly GUI applications in Python. GUI toolkits are generally written in C/C++. Many of them have been ported to Python. Examples are PyQt, WxWidgets, PySimpleGUI etc.
+
+
+
+
+
+
+
+
+
+9.Database Connectivity : 
+
+- Almost any type of database can be used as a backend with the Python application. DB-API is a set of specifications for database driver software to let Python communicate with a relational database. With many third party libraries, Python can also work with NoSQL databases such as MongoDB.
+
+
+
+
+
+
+
+
+10.Extensible : 
+
+- The term extensibility implies the ability to add new features or modify existing features. As stated earlier, CPython (which is Python's reference implementation) is written in C. Hence one can easily write modules/libraries in C and incorporate them in the standard library. There are other implementations of Python such as Jython (written in Java) and IPython (written in C#). Hence, it is possible to write and merge new functionality in these implementations with Java and C# respectively.
+
+
+
+
+
+
+
+
+
+
+
+11.Active Developer Community : 
+
+-  As a result of Python's popularity and open-source nature, a large number of Python developers often interact with online forums and conferences. Python Software Foundation also has a significant member base, involved in the organization's mission to "Promote, Protect, and Advance the Python Programming Language"
+
+- Python also enjoys a significant institutional support. Major IT companies Google, Microsoft, and Meta contribute immensely by preparing documentation and other resources.
+
+
+
+
+
+
+
+
+

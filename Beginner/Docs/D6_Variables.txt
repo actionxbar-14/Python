@@ -1,0 +1,118 @@
+
+                           Variables in Python
+
+reference_link : https://www.tutorialspoint.com/python/python_variables.htm
+
+
+
+
+:: Variables : 
+
+- Python variables are the reserved memory locations used to store values with in a Python Program. This means that when you create a variable you reserve some space in the memory.
+
+- Based on the data type of a variable, memory space is allocated to it. Therefore, by assigning different data types to Python variables, you can store integers, decimals or characters in these variables.
+
+
+: Memory Addresses :-
+
+- Data items belonging to different data types are stored in computer's memory. Computer's memory locations are having a number or address, internally represented in binary form. Data is also stored in binary form as the computer works on the principle of binary representation. In the following diagram, a string May and a number 18 is shown as stored in memory locations.
+
+- If you know the assembly language, you will covert these data items and the memory address, and give a machine language instruction. However, it is not easy for everybody. Language translator such as Python interpreter performs this type of conversion. It stores the object in a randomly chosen memory location. Python's built-in id() function returns the address where the object is stored.
+
+>>> "May"
+May
+>>> id("May")
+2167264641264
+
+>>> 18
+18
+>>> id(18)
+140714055169352
+
+
+
+- Once the data is stored in the memory, it should be accessed repeatedly for performing a certain process. Obviously, fetching the data from its ID is cumbersome. High level languages like Python make it possible to give a suitable alias or a label to refer to the memory location.
+
+- In the above example, let us label the location of May as month, and location in which 18 is stored as age. Python uses the assignment operator (=) to bind an object with the label.
+
+>>> month="May"
+>>> age=18
+
+
+- The data object (May) and its name (month) have the same id(). The id() of 18 and age are also same.
+
+>>> id(month)
+2167264641264
+
+
+>>> id(age)
+140714055169352
+
+
+
+
+
+
+:: Deleting Python Variables :-
+You can delete the reference to a number object by using the del statement. The syntax of the del statement is −
+
+del var1[,var2[,var3[....,varN]]]
+You can delete a single object or multiple objects by using the del statement. For example 
+
+del var
+del var_a, var_b
+
+
+
+
+
+:: Getting Type of a Variable :-
+You can get the data type of a Python variable using the python built-in function type() as follows.
+
+x = "Zara"
+y =  10
+z =  10.10
+
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+
+:: Python Variables - Multiple Assignment :-
+
+- Python allows to initialize more than one variables in a single statement. In the following case, three variables have same value.
+
+>>> a=10
+>>> b=10
+>>> c=10
+
+
+- Instead of separate assignments, you can do it in a single assignment statement as follows :  
+
+>>> a=b=c=10
+>>> print (a,b,c)
+10 10 10
+
+
+
+- These separate assignment statements can be combined in one. You need to give comma separated variable names on left, and comma separated values on the right of = operator.
+
+>>> a,b,c = 10,20,30
+>>> print (a,b,c)
+10 20 30
+
+
+
+
+:: Python Variables - Naming Convention :-
+
+1.A variable name must start with a letter or the underscore character.
+
+2.A variable name cannot start with a number or any special character like $, (, * % etc.
+
+3.A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).
+
+4.Python variable names are case-sensitive which means Name and NAME are two different variables in Python.
+
+5.Python reserved keywords cannot be used naming the variable.

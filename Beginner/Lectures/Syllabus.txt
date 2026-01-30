@@ -1,0 +1,59 @@
+
+
+
+                                Python [Beginner]
+
+    
+    1. Python installation and Idle's : 
+       [Python Setup]
+       --> VsCode
+       --> PyCharm
+       --> Jupyter Notebook
+
+
+    2. Basics :
+      --> Variables 
+      --> Data types ( int , float , str , bool )
+      --> Operators ( arithmetic , logical , comparison )
+
+
+    3. Input / Output : 
+      --> input ()        --> f-string()
+      --> print ()        --> format()
+
+
+    4. Conditional statements & loops : 
+      --> if              --> for / while loops
+      --> elif            --> break , continue
+      --> else            --> Pass
+
+
+    5. Data Structures :
+      --> string          --> Dictionary
+      --> List            --> Indexing
+      --> Tuple           --> Slicing 
+      --> Sets            --> Iterating & Built - in Methods
+
+
+    6. Functions : 
+      --> def            --> Parameters
+      --> return         --> Scope(local/global)
+
+
+    7. File Handelling :
+      --> open()
+      --> read()
+      --> Write()
+      --> context manager(with)
+
+    
+    8. Modules and Packages :
+      --> standard modules (math , random , datetime)
+      --> installing packages via pip
+
+
+    9. Projects :
+       --> Calculator
+       --> Number guessing Game
+       --> To - do App.
+    

@@ -1,0 +1,158 @@
+                     
+                          Introduction to Python
+
+reference_link : https://www.tutorialspoint.com/python/index.htm
+
+
+
+                              
+
+
+1. Python Introduction : 
+
+- Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).
+
+
+
+2. Characterstics of Python : 
+
+- It supports functional and structured programming methods as well as OOP.
+- It can be used as a scripting language or can be compiled to byte-code for building large applications.
+- It provides very high-level dynamic data types and supports dynamic type checking.
+- It supports automatic garbage collection.
+- It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+                                 
+
+
+
+3. Features Of Python : 
+
+:: Easy-to-learn : 
+Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
+
+:: Easy-to-read :
+ Python code is more clearly defined and visible to the eyes.
+
+:: Easy-to-maintain : 
+Python's source code is fairly easy-to-maintain.
+
+:: A broad standard library :
+Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.
+
+:: Interactive Mode :
+ Python has support for an interactive mode that allows interactive testing and debugging of snippets of code.
+
+:: Portable :
+ Python can run on a wide variety of hardware platforms and has the same interface on all platforms.
+
+:: Extendable : 
+You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.
+
+:: Databases :
+Python provides interfaces to all major commercial databases.
+
+:: GUI Programming : 
+Python supports GUI applications that can be created and ported to many system calls, libraries, and Windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.
+
+:: Scalable : 
+Python provides a better structure and support for large programs than shell scripting.
+
+
+
+
+4. PEP (Python Enhancement Proposal) :
+
+-To facilitate new features and to maintain that readability, the Python Enhancement Proposal (PEP) process was developed. This process allows anyone to submit a PEP for a new feature, library, or other addition.
+
+PEP 649: Deferred evaluation of annotations.
+PEP 741: Python configuration C API.
+PEP 761: Sigstore replaces PGP signatures for verification.
+Improved error messages.
+
+
+
+5. Zen Of Python : 
+
+- Python's design philosophy is documented in the Zen of Python. It consists of nineteen aphorisms such as : 
+
+- To obtain the complete Zen of Python document, type import this in the Python Shell −
+
+
+ 
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+
+
+
+
+
+6.  Python History : 
+
+- Python was developed by Guido van Rossum (a Dutch programmer) in the late 1980s and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands.
+
+Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and Unix shell and other scripting languages. Guido van Rossum wanted Python to be a high-level language that was powerful yet readable and easy to use.
+
+Python is copyrighted. Like Perl, Python source code is now available under the GNU General Public License (GPL).
+
+
+
+
+
+
+
+7. Python Versions :
+
+
+
+:: Python 0.9.0 :-
+
+- Python's first published version is 0.9. It was released in February 1991. It consisted of features such as classes with inheritance, exception handling, and core data types like lists and dictionaries..
+
+Python 1.0
+In January 1994, version 1.0 was released, armed with functional programming tools, features like support for complex numbers etc and module system which allows a better code organization and reuse.
+
+Python 2.0
+Next major version − Python 2.0 was launched in October 2000. Many new features such as list comprehension, garbage collection and Unicode support were included with it. Throughout the 2000s, Python 2.x became the dominant version, gaining traction in industries ranging from web development to scientific research. Various useful libraries like like NumPy, SciPy, and Django were also developed.
+
+Python 3.0
+Python 3.0, a completely revamped version of Python was released in December 2008. The primary objective of this revamp was to remove a lot of discrepancies that had crept in Python 2.x versions. Python 3 was backported to Python 2.6. It also included a utility named as python2to3 to facilitate automatic translation of Python 2 code to Python 3. Python 3 provided new syntax, unicode support and Improved integer division.
+
+
+
+
+
+
+
+8. Current Version of Python :  Python 3.11.2
+
+
+- Meanwhile, more and more features have been incorporated into Python's 3.x branch. As of date, Python 3.11.2 is the current stable version, released in February 2023.
+
+- What's New in Python 3.11?
+One of the most important features of Python's version 3.11 is the significant improvement in speed. According to Python's official documentation, this version is faster than the previous version (3.10) by up to 60%. It also states that the standard benchmark suite shows a 25% faster execution rate.
+
+- Python 3.11 has a better exception messaging. Instead of generating a long traceback on the occurrence of an exception, we now get the exact expression causing the error.
+
+- As per the recommendations of PEP 678, the add_note() method is added to the BaseException class. You can call this method inside the except clause and pass a custom error message.
+
+- It also adds the cbroot() function in the maths module. It returns the cube root of a given number.
+
+- A new module tomllib is added in the standard library. TOML (Tom's Obvious Minimal Language) can be parsed with tomlib module function.

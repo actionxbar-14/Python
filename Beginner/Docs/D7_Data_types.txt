@@ -1,0 +1,33 @@
+
+                                     Data Types
+
+
+reference_link : https://www.tutorialspoint.com/python/python_data_types.htm
+
+
+
+1. Primitive :                                             2. Non - premitive : 
+- Integers                                                   - lists.                      
+- Floats                                                     - Tuples
+- Booleans                                                   - dictionaries
+- Strings                                                    - sets
+
+
+
+
+
+
+:: Range Function : 
+
+- A Python range is an immutable sequence of numbers which is typically used to iterate through a specific number of items.
+
+- It is represented by the Range class. The constructor of this class accepts a sequence of numbers starting from 0 and increments to 1 until it reaches a specified number. Following is the syntax of the function.
+
+range(start, stop, step)
+
+
+#start: Integer number to specify starting position, (Its optional, Default: 0)
+
+#stop: Integer number to specify ending position (It's mandatory)
+
+#step: Integer number to specify increment, (Its optional, Default: 1)

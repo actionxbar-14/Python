@@ -1,4 +1,5 @@
-                        #   TOPIC : Introduction to Python Programming.
+                  
+                        #   TOPIC : Variables in Python Programming.
 
 
 
@@ -29,8 +30,8 @@ print(c)
 # Output: Anubhav
 
 
-# d = anubhav
-# print(d)
+d = anubhav
+print(d)
 # output :   d = anubhav
 #         ^^^^^^^
 # NameError: name 'anubhav' is not defined
@@ -55,29 +56,37 @@ myname = "Anubhav"  # flat case.
 my_name = "Anubhav" # snake case.
 
 
+# :: NOTE : 
+# Python primarily uses snake_case for variables, functions, methods, and module names, as recommended by PEP 8. For class names, Python uses PascalCase (or CapWords), and for constants, it uses screaming_snake_case (all uppercase with underscores). This convention improves readability and distinguishes between different types of identifiers.
+
+
 # :: Basic rule to declare variable :-
-1. variable name must start with : letter or _ .
-ex : 
+
+
+# 1. variable name must start with : letter or _ .
+# ex : 
 my_name = "Anubhav"
 _my_name = "Anubhav"
 
-2. variable name can contain : letter , numerical value(numbers) , underscore (_).
-ex:
+print(_my_name)
+
+# 2. variable name can contain : letter , numerical value(numbers) , underscore (_).
+# ex:
 my_name = "Anubhav"
 my_name123 = "Anubhav"
 my_name_123 = "Anubhav"
 
 
-3. variable are case sensetive.
-ex:
+# 3. variable are case sensetive.
+# ex:
 myname = "AnubhavPathak"
 print(myName)
 
 # output : error
 
 
-4. variables name cant be a reserved word.
-ex:
+# 4. variables name cant be a reserved word.
+# ex:
 for = 20 #-> not valid
 
 
