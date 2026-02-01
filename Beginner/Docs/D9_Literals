@@ -1,0 +1,43 @@
+
+                              Python literals
+
+refrence_link :  https://www.tutorialspoint.com/python/python_literals.htm
+
+
+:: What are Python Literals?  
+
+- Python literals or constants are the notation for representing a fixed value in source code. In contrast to variables, literals (123, 4.3, "Hello") are static values or you can say constants which do not change throughout the operation of the program or application. For example, in the following assignment statement.
+
+x = 10
+
+Here 10 is a literal as numeric value representing 10, which is directly stored in memory. However,
+
+
+
+:: Different Types of Python Literals
+Python provides following literals which will be explained this tutorial:
+
+1.Integer Literal
+2.Float Literal
+3.Complex Literal
+4.String Literal
+5.List Literal
+6.Tuple Literal
+7.Dictionary Literal
+
+
+
+
+
+
+# NOTE : Example of Tuple Type Literal Without Parenthesis.
+
+
+- Default delimiter for Python sequence is parentheses, which means a comma separated sequence without parentheses also amounts to declaration of a tuple.
+
+T1=1,"Ravi",75.50, True
+print (T1, type(T1))
+
+Here too, you will get the same output −
+
+[1, 'Ravi', 75.5, True] <class tuple>

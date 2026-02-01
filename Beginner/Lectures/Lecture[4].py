@@ -40,12 +40,15 @@ print(float(b))  # output : 22.0
 # Implicit typecasting :- [coercion]
 # - automatic done by python interepreter for Data loss or errors.
 
+
+
+
 var1 = 10 # type : int
 var2 = 15.5 # type : float
 print(var1 + var2)  # output : 25.5 [float]
 
 
-# explicit typecasting :
+# Explicit typecasting :
 
 int_num = 101
 str_num = str(int_num)
