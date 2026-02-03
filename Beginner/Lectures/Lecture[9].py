@@ -13,7 +13,7 @@
 # - if an year is divisible by 4 or 100 and divisible by 400 then it is a leap year.
 # - leap year occours once every four years
 
-
+# Answer : 1
 
 # print("Here You can get if the given Year is Leap year or not:")
 
@@ -24,6 +24,15 @@
 # print(leap_year)
 
 
+
+
+
+
+
+
+
+
+
 # Question : 2 Login Authentication using conditional statement.
 
 
@@ -32,6 +41,11 @@
 # Both username and password are correct.
 # username is correct but password is incorrect.
 # username is incorrect.
+
+
+
+
+# Answer : 2
 
 # print("Login Authentication!!!!")
 # username_key = "admin"
@@ -50,6 +64,12 @@
 #     print("Username is incorrect")
 
 
+
+
+
+
+
+
 # Question : 3 Admission Eligibility
 # - A university has the following Eligibility criteria for admission:
 # - Marks in Mathematics >= 65
@@ -58,6 +78,9 @@
 # - Total marks in all three subjects >= 180 OR total marks in Mathematics and Physics >= 140.
 # Write a program that takes marks in three subjects as input and prints whether the student is eligible for admission.
 
+
+
+# Answer : 3
 
 # print("Admission Eligibility :")
 
@@ -71,3 +94,7 @@
 # eligible_student = "You are eligible" if ( Mathematics_marks >= 65 and Physics_marks >= 55 and Chemistry_marks >= 50 ) or (Mathematics_marks_and_Physics_marks >= 140) else "You are not eligible"
 
 # print(eligible_student)
+
+
+
+

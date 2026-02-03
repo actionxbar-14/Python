@@ -10,12 +10,19 @@
 # 4.  Nested 'if else' statement
 # 5.  Conditional Expressions(Ternary Operator)
 
-# # Ex : 
+
+
+
 
 # 1. if : 
-# ::syntax : if condition :
-               #code to execude if the condition is true.
-# ex : 
+
+# ::syntax : 
+
+# if condition :
+   #code to execude if the condition is true.
+
+
+# Ex : 
 # a = 25
 # b = 108
 # if b > a :
@@ -23,9 +30,18 @@
 
 # age = int(input("enter your age:"))
 # if age > 19:
-#     print("you are adult") #output : gives statement inside print statement if the age is greater than 19. / the statement inside if statement is true.
+#     print("you are adult") 
+
+#output : gives statement inside print statement if the age is greater than 19. / the statement inside if statement is true.
 
 # print(10>100) #output : False
+
+
+
+
+
+
+
 
 
 
@@ -42,6 +58,15 @@
 #    print("its hot today") #output : gives the statement inside print statement if the condition inside if statemnet is true.
 # else:
 #     print("the day is normal")  #output : gives the statement inside print statement if the condition inside if statemnet is false.
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,6 +88,15 @@
 #     print("you are getting an semi-goverment college")
 # else:
 #     print("you are getting an private college")
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,6 +144,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 # 5.  Conditional Expressions(Ternary Operator) :
 # ::syntax : value = condition/expression if true else false
 
@@ -133,15 +176,15 @@
 
 
 
-# value = None  # False
-# value = (input("enter the value:"))  #True
+# value = None  # ---> Here None equals to False
+# value = (input("enter the value:")) ----> Here Input value equals to True
 
 # if value:
 #     print("Value is True")
 # else:
 #     print("Value is False")  #output : Value is False
 
-# # NOTE: Assign kiya value ko to else chala , or input se liya to true diya.
+# # NOTE: Assign kiya value ka to else chala , or input se liya to true diya.
 
 
 
