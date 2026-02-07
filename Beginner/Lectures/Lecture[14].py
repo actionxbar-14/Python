@@ -1,13 +1,17 @@
 
-                       # TOPIC  : Assignment - 4
+                                         # TOPIC  : Assignment - 4
                        
+
+
+
+
 
 
 
 # Question : 1  
 # Limit the decimal places to digits using '.format()' method and print result , for the variable pi = 3.14159265359.
 
-# Answer:
+# Answer:  Using f- functions formattting float numbers.
 # pi = 3.14159265359
 
 # print(round(pi,2)) #output : 3.14
@@ -18,9 +22,20 @@
 # print("Value of pi is {:.1f}".format(pi)) #output : 3.1
 # print("Value of pi is {:.0f}".format(pi)) #output : 3
 
+
+
 # :: using f-string method :
 
-# print(f"{pi:.2f} using f-string")  #output : 3.14 using f-string
+# print(f"value of pi is : {pi:.2f} using f-string")  #output : value of pi is 3.14 using f-string
+
+
+
+
+
+
+
+
+
 
 
 
@@ -29,8 +44,31 @@
 # Question : 2 Extract characters from index 2 to 8 with a step of 2: Given
 # my_string = "Python Course" , slice characters from index 2 to 8 , skipping every other char.
 
+#NOTE : string[start:end:step]
+
+
 # my_string = "Python Course"
-# print(my_string[2:8:2]) #output : Pyh
+# print(my_string[2:8:2])    # Output : to
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -39,7 +77,7 @@
 # For my_string = "Madhava" , use slicing to extract the middle character(s).  -> 7 characters(odd)
 
 
-# my_string = "Madhav"  #(dh is middle) - odd
+# my_string1 = "Madhav"  #(dh is middle) - odd
 # #  index  =  012345
 
 
@@ -57,7 +95,7 @@
 #         return word[middle]
 
 
-# print(mid_str(my_string))  #output : dh
+# print(mid_str(my_string1))  #output : dh
 # print(mid_str(my_string2))  #output : h
 
 
@@ -72,7 +110,20 @@
 #     else:
 #         return name[middle]
 
-# print(middle_word(name))
+# print(middle_word(name))   # Output :  [b]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,6 +149,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 #Question : 5 Get the substring that starts 4 characters from the end to the last character: For my_string = "Classification" , slice the string starting from the 4th character from the end to the last character.
 
 
@@ -108,6 +168,18 @@
 # print(my_string[-4:]) # output : tion
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 #Question : 6 How to Reverse a String Using Python String Methods?
 # Answer :
 
@@ -115,11 +187,25 @@
 # print(word[::-1])  #output : nohtyP
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #Question : 7 Write a Python function to check if a string is a palindrome using string methods.
 
 # Answer : 
 
-# word = "madam"
+# word1 = "madam"
 # word2 = 'madan'
 
 # def is_palindrome(s):
@@ -128,8 +214,19 @@
 #     else:
 #         print(f"{s} is not an palindrome")
 
-# print(is_palindrome(word))  #output : madam is an palindrome
+# print(is_palindrome(word1))  #output : madam is an palindrome
 # print(is_palindrome(word2))  #output : madan is not an palindrome
+
+
+
+
+
+
+
+
+
+
+
 
 
 #Question : 8 Difference Between find() and index() in python.
@@ -147,6 +244,20 @@
 # :: index : simple find the index of a letter in a given string.
 
 # print(name.index('A'))  # output : 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

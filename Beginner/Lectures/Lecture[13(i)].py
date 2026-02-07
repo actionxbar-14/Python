@@ -1,6 +1,6 @@
 
-                     # TOPIC :   Strings[Part - 1]
-                        #      [ Format & Operators ]
+                                     # TOPIC :   Strings[Part - 1]
+                        #                     [ Format & Operators ]
  
 
 
@@ -22,9 +22,9 @@
 
 
 
+# :: Formatted String :
 
-#Formatted String :
-# A Formatted string in python is a way to insert variables or expressions inside a string. It allows you to format the output in a readable and controlled way.
+# - A Formatted string in python is a way to insert variables or expressions inside a string. It allows you to format the output in a readable and controlled way.
 
 # -> Old - style formatting (% operator).
 # -> str.format() method.
@@ -32,8 +32,14 @@
 
 
 
-# --> Old - style formatting(% operator):-
-# This approach uses the % operator and is similar to string formatting in language like c.
+
+
+
+
+
+# -----> Old - style formatting(% operator):-
+
+# - This approach uses the % operator and is similar to string formatting in language like c.
 
 # Syntax:  "string % value"
 
@@ -54,9 +60,17 @@
 
 
 
-# --> str.format() method :- available in python3.
 
-# In python3, the format() method is more powerfull and flexible than the old-style % formatting.
+
+
+
+
+# -----> str.format() method :- 
+
+
+
+# - In python3, the format() method is more powerfull and flexible than the old-style % formatting.
+# - Available in python3.
 
 # Syntax: "string {}".format(value)
 
@@ -65,7 +79,9 @@
 # age = 20
 # print("My name is {} and I'm {}.".format(name,age))
 
-# You can also refrence the variables by index or keyword:
+
+
+# : You can also refrence the variables by index or keyword:
 
 # print("My name is {0} and I'm {1}.".format(name,age)) #indexing ,
 # output : My name is Anubhav and I'm 20.
@@ -86,9 +102,15 @@
 
 
 
-# F-strings(formatted string literals) :-
 
-# -In Python 3.6 , F-strings are the most concise and efficient way to format strings. You prefix the string with an f or F , and variables or expressions are embedded directly within curly braces{}.
+
+
+
+
+
+#:: F-strings(formatted string literals) :-
+
+# - In Python 3.6 , F-strings are the most concise and efficient way to format strings. You prefix the string with an f or F , and variables or expressions are embedded directly within curly braces{}.
 
 # Syntax : f"string {variable}"
 
@@ -99,6 +121,7 @@
 
 # You can also perform expressions inside the placeholders
 # print(f"2 + 2 = {2 + 2}") #output : 2 + 2 = 4.
+
 
 
 
@@ -128,7 +151,18 @@
 
 
 
-# String Operators :
+# :: String Operators :
+
+# 1. + (concatenation)
+# 2. * ( Repetition )
+# 3. [] ( Slice )
+# 4. [:] ( Range Slice )
+# 5. in / not in ( Membership )
+# 6. r/R  ( Raw String )
+# 7. % ( Format )
+
+
+
 
 # 1. + ( concatenation ) - Add values on either side of the operator.
 # ex:
@@ -162,6 +196,8 @@ a = "Hello"
 # print(a[0:3]) #output : Hel
 
 
+# 5. (in\ not in) Membership:
+
 # if 'H' in a:
 #     print(f"{a} contain the letter H")  
 
@@ -171,5 +207,10 @@ a = "Hello"
 
 
 
-:: Raw string :  reverse the escape character.
-# print(r'Hello\nWorld') #output : HelloWorld.
+# 6.(r/R) Raw string :  reverse the escape character.
+# print(r'Hello\nWorld') #output : Hello\nWorld. ( \n ka power khtm krr diya )
+
+
+
+# 7.(%) Format : 
+# - same as above.

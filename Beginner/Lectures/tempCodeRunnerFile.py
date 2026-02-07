@@ -1,1 +1,2 @@
-print(x is z) output: False
+print("Hello" , sep = "*" , end = " * ")
+print("Anubhav")

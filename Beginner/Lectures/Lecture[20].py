@@ -40,8 +40,9 @@
 
 # - End : end='end'	Optional. Specify what to print at the end. Default is '\n' (line feed).
 
-# - file : 	Optional. An object with a write method. Default is sys.stdout
-# flush	Optional. A Boolean, specifying if the output is flushed (True) or buffered (False). Default is False.
+# - file : 	Optional. An object with a write method. Default is sys.stdout.
+
+# - flush	Optional. A Boolean, specifying if the output is flushed (True) or buffered (False). Default is False.
 
 
 
@@ -84,7 +85,7 @@
 # print("Anubhav")
 
 # :: Output : 
-# Hello * Anubhav
+# Hello * Anubhav 
 
 
 
@@ -359,4 +360,12 @@
 
 # Fibonacci(10)
 # Output : 0 1 1 2 3 5 8 13
+
+
+
+
+
+
+
+
 

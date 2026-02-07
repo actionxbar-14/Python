@@ -1,5 +1,5 @@
-
-                          Identifiers and keywords
+ 
+                                     Identifiers and keywords
 
 reference_link : https://www.tutorialspoint.com/python/python_basic_syntax.htm
 

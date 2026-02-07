@@ -1,5 +1,5 @@
 
-                          # TOPIC : Nested Loops
+                                         # TOPIC : Nested Loops
 
 
 
@@ -27,7 +27,7 @@
 # Outer_loop:
 #     inner_loop:
 #         #[Code block to execute - innner loop ]
-# [Code block to execute - outer loop ]
+##[Code block to execute - outer loop ]
     
 
 # ::Example:
@@ -76,12 +76,12 @@
 # Ex: 3.  Print prime numbers between range of 2 and 10 using nested loops.
 
 # for i in range(2,20):
-#     # print(f"::Outer loops runs after {i} iteration:-")
-#     print(" ")
+#   # print(f"::Outer loops runs after {i} iteration:-")
+#     # print(" ")
     
 #     for num in range(2,i):
-#         # print(f"::innner loops runs for {num} values:-")
-#         print(" ")
+#       # print(f"::innner loops runs for {num} values:-")
+#         # print(" ")
 #         if i % num == 0:
 #             print(f"{i} is divisible by {num} , hence it is not prime number.")
 #             break
@@ -97,24 +97,44 @@
 
 # Ans :
 
-# name = input("Hello , Plese Enter Your Name :")
-# # print(f"Hii {name} , You can Give two numbers and i am going to give you the all prime numbers in between that two numbers : ")
+name = input("Hello , Plese Enter Your Name :")
+print(f"Hii {name} , You can Give two numbers and i am going to give you the all prime numbers in between that two numbers : ")
 
 
-# def Find_prime():
-#     a = int(input(f"{name} Plese Enter Value of a :"))
-#     b = int(input(f"{name} Plese Enter Value of b :"))
-#     # print(a)
-#     for i in range(a,b):
-#         for num in range(a,i):
-#             if i%num == 0:
-#                 # print(f"{i} is divisible by {num} , hence it is not prime number.")
-#                 break
-#         else:
-#             result = i
-#             print(result)
+def Find_prime():
+    a = int(input(f"{name} Plese Enter Value of a :"))
+    b = int(input(f"{name} Plese Enter Value of b :"))
+    # print(a)
+    for i in range(a,b):
+        for num in range(a,i):
+            if i%num == 0:
+                # print(f"{i} is divisible by {num} , hence it is not prime number.")
+                break
+        else:
+            result = i
+            print(result)
 
 # Find_prime()
-# result_prime = Find_prime()
-# print()
+result_prime = Find_prime()
+print(result_prime)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

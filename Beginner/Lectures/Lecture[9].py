@@ -98,3 +98,18 @@
 
 
 
+
+
+# print("LEAP YEAR PROGRAM : ")
+
+# leap_year = int(input("Enter a Year : "))
+
+# if leap_year % 4 == 0 :
+#     print(f"{leap_year} is an leap year.")
+
+# elif (leap_year % 400 == 0 & leap_year % 100 != 0):
+#     print(f"{leap_year} is an leap year")
+
+
+# else :
+#     print(f"{leap_year} is not an leap year.")

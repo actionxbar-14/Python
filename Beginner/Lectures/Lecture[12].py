@@ -7,7 +7,7 @@
 
 
 
-# FUNCTION ARGUMENT :
+# :: FUNCTION ARGUMENT :
 
 # - Argument are the values that are passed into a function when it's called.
 # - A function must be called with  the right number of arguments. If a function has 2 parameter , you must provide 2 arguments when calling it.
@@ -29,7 +29,15 @@
 
 
 
+
+
+
+
+
+
 # 1. Required arguments (Single / Multiple arguments):
+
+
 
 
 # ex:  name is defined as parameter and 'Anubhav' as Argument at the time of function calling is a Required argument.
@@ -40,6 +48,10 @@
 # greeting("Anubhav") #output : hello , Anubhav  # Anubhav as an argument.
 
 
+
+
+
+
 # ex:  course_name and instructor_name as an parameter. and 'Python' and "Rishabh" as an argument at the time of function calling.
 
 # def Course_intro(course_name , instructor_name):
@@ -48,6 +60,9 @@
 # Course_intro('Python',"Rishabh") 
 #output: This is a Python Tutorail and my instructor for this course is Rishabh.
 
+
+
+#        
 
 
 
@@ -88,11 +103,20 @@
 
 
 
-# 4. Keyword Argument :
+
+
+
+
+
+
+
+
+
+# 4. Arbitary Positional Argument (*args) :
 # 
 # - If You're unsure how many arguments will be passed , use [ *args ] to accept any number of positional arguments.
 # PURPOSE : Allows you to pass a variable number of positional arguments.
-# TYPE: The arguments are stored as a [ tuple ].
+# TYPE: The arguments are stored as a ( tuple ).
 # USAGE : Use when you want to pass multiple values that are accessed by position.
 
 # ex: program to add n numbers.

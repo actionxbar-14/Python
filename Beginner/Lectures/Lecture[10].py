@@ -1,5 +1,5 @@
 
-                      # TOPIC : Functions in Python 
+                                        # TOPIC : Functions in Python 
 
 
 
@@ -14,12 +14,29 @@
 # > Argument : The actual value pass to function when you call it.
 
 
-# Type of Function :-
+
+
+
+
+
+# :: Type of Function :-
+
+
+
+
+
+
 
 # 1. Built - in library function :
 
 # - These are the functions that are already available in python.
 # ex: print() , input() , type() , sum() , max() etc.
+
+
+
+
+
+
 
 # 2. User-defined function ( Custom ):
 # - We can create our own functions based on our requirement.
@@ -32,7 +49,14 @@
         #  return result
 
 
-# FUNCTION WITHOUT PARAMETERS :
+
+
+
+
+
+
+
+# :: FUNCTION WITHOUT PARAMETERS :
 
 
 
@@ -56,7 +80,31 @@
 
 
 
-# FUNCTION WITH PARAMETERS :
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# :: FUNCTION WITH PARAMETERS :
 
 # a = int(input("Enter value of a:"))
 # b = int(input("Enter value of b:"))
@@ -69,9 +117,18 @@
 # print(f"Sum of {a}+{b} is = {Sum}")
 
 
+
+
+
 # function to adds two numbers & return result
 # def Sum_numbers(a=2,b=4):  
     # return a+b  # after return statement the function stops.
+
+
+
+
+
+
 
 # calling this function with arguments and storing the result in the variable sum
 # Sum = Sum_numbers() #output: parameter value(a=2,b=4) total : 6.
@@ -88,6 +145,10 @@
 # print(largest_num)
 
 
+
+
+
+
 #Function to Convert Celsius to Fahrenheit: [ Fahrenheit = ( celsius * 9/5 ) + 32 ]
 
 # def celsius_to_fahrenheit(celsius):
@@ -99,6 +160,12 @@
 
 #NOTE : with return statement function ka type float/int ayega,
         # without return statement function ka type none ayega.
+
+
+
+
+
+
 
 
 

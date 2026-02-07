@@ -79,7 +79,16 @@
 # N
 
 
-# ::NOTE:  RANGE FUNCTION :-
+
+
+
+
+
+
+
+
+
+# :: RANGE FUNCTION :-
 
 # # only one value inside range function:
 # range(stop) - Excluding stop value
@@ -149,7 +158,11 @@
 # for loop ended
 
 
-# -->Note:
+
+
+
+
+# NOTE:
 
 # While loop VS for loop :
 

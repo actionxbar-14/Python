@@ -1,5 +1,5 @@
 
-                      #  TOPIC :       Strings[ Part - 2 ]
+                       #  TOPIC :       Strings[ Part - 2 ]
                           #       [ Indexing , Slicing , Methods ]
                         
 
@@ -28,11 +28,24 @@
 
 # print(name)  # Output : Anubhav
 
+
+
+
+
 #NOTE : Space are also counted as a index by the string indexing.
 
-# ex:
+# Ex:
 # name = "Anubhav "
-# print(name[-1]) #output : blanck space
+# print(name[-1]) #output : <blanck space>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +55,7 @@
 
 # :: String Slicing :-
 
-# -Slicing in Python is a feature that enables accesssing parts of the sequence. String Slicing allow you to get 'subset' of characters from a string using a specified range of indices.
+# - Slicing in Python is a feature that enables accesssing parts of the sequence. String Slicing allow you to get 'subset' of characters from a string using a specified range of indices.
 
 # syntax : string[start : end  : step]
 
@@ -60,27 +73,47 @@
 # print(name[0:6:2]) #output : Auh(v -> exclusive, jump by 2 index.)
 
 
-# ex:
+# Ex:
 
 # name = "Anubhav"
 # # nick_name = name[0:3] #output : Anu
-# print(name[5:]) #output : last letter.
-# print(name[-2:]) #output : last 2 char.
-# print(name[-3:]) #output : last 3 char.
-# print(name[0:5:2]) #Output : every second char.
-# print(name[0::2]) #Output : every second char.
-# print(name[:]) #output : all characters.
-# print(name[::]) #output : reversing the string.
-
 # print(f"My name is {name} and people genrally call me as {nick_name}")  #output : My name is Anubhav and people 
 # genrally call me as Anu  
 
 
 
+# print(name[5:]) #output : [v] last letter.
+# print(name[-1:]) #output : [v] last letter.
+# print(name[-2:]) #output :[av] last 2 char.
+# print(name[-3:]) #output : [hav] last 3 char.
+# print(name[0:5:2]) #Output : [Auhv] every second char.
+# print(name[0::2]) #Output : [Auhv] every second char.
+# print(name[:]) / print(name[::]) #output : [Anubhav] all characters.
+# print(name[::-1]) #output : [vahbunA] reversing the string.
 
 
 
-#String Methods :-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#:: String Methods :-
 
 # 1. len() : returns the length of a string(the number of characters).
 # ex:
@@ -140,9 +173,9 @@
 
 # 8. split(): Splits the string at the specified separator and returns a list.
 
-# name = "Anubhav"
+# name = "Hello Anubhav"
 # split_name = name.split(',')
-# print(split_name)  #output : ['Anubhav']
+# print(split_name)  #output : ['Hello Anubhav']
 
 
 
