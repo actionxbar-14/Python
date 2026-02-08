@@ -280,3 +280,19 @@
 # print(squares)  # Output : {1,4,9,16,25}
 
 
+# ______________________________________________________________________________________________________
+
+
+# :: Set Common Use Cases  :
+
+# 1. Removing Duplicates : Easily eliminate duplicate enteries from data.
+# 2. Membership Testing : Quickly Check if an item exists in a collection.
+# 3. Set Operations : Perform mathematical operations like union , intersection and difference.
+# 4. Data Analysis : Useful in scenarios requiring unique items , such as tags , categories or unique identifiers.
+
+
+# Example : Removing Duplicates from a List.
+
+# numbers = [1,2,2,3,4,4,5]
+# unique_numbers = set(numbers)
+# print(unique_numbets)  # Output  : {1,2,3,4,5}
