@@ -49,6 +49,7 @@
 
 
 
+
 # 2. Without Parantheses ( Comma-Seperated ) : 
 
 # also_numbers = 1 , 2 , 3 , 4 , 5
@@ -78,12 +79,15 @@
 
 
 
+
+
 # 4. Single-Item Tuple : 
-# ye iske (" ") bad mai ',' lagana jaruri hai nahi lagaya toh tuple nahi banega , as a string samjh lega .
+# ye iske (" ") bad mai ',' lagana jaruri hai, agar nahi lagaya toh tuple nahi banega , as a string samjh lega .
 
 # tuple_single = ("only")
 # print(tuple_single)  # Output : only
 # print(type(tuple_single))  # Output : <class 'str'>
+
 
 # tuple_single = ("only",)
 # print(tuple_single)  # Output : ('only',)
@@ -203,6 +207,9 @@
 # ____________________________________________________________________
 
 
+
+
+
 # :: Iterating Over Tuple :
 
 # - Iterating allows you to traverse each element in a tuple , using loops.
@@ -211,18 +218,28 @@
 
 
 
-# Using for loop :
+
+
+
+# :: Using for loop :
 
 # for fruit in fruits:
 #     print(fruit)   # Output : ("apple" , "mango" , "cherry")
 
-# Using while loop : 
+
+
+
+
+
+# :: Using while loop : 
 
 # i = 0
 
 # while i < len(fruits):
 #     print(fruits[i])   # Output : ("apple" , "mango" , "cherry")
 #     index += 1
+
+
 
 
 
@@ -248,7 +265,7 @@
 
 
 # 2. index()  :
-# - Searches the tuple for a specified value and return the position of where it was found.
+# - Searches in the tuple for a specified value and return the position of where it was found.
 
 
 # Ex:
@@ -269,10 +286,10 @@
 
 
 
+
+
 # 1. len() :
 # - Returns the number of items in a tuple.
-
-
 
 # Ex:
 
@@ -282,7 +299,10 @@
 
 
 
-# 2. sorted() : [method to convert a given tuple into an list].
+
+
+
+# 2. sorted() : [method to convert a given tuple into an list and then sort and again convert it into the tuple.].
 
 # - Returns a new "List" from the items in the tuple.
 
@@ -299,6 +319,11 @@
 
 
 
+
+
+
+
+
 # 3.  Sum() :
 # - Return up all the numeric items in the tuple.
 
@@ -306,6 +331,13 @@
 
 # numbers = (2,3,1,4)
 # print(sum(numbers))  # Output : 10
+
+
+
+
+
+
+
 
 
 
@@ -337,9 +369,17 @@
 
 # name = "Anubhav"
 # age = 20
-# profession = "Engineer"
+# profession = "Cloud_Engineer"
 # pack_tuple = name , age , profession
-# print(pack_tuple)   # Output : ('Anubhav', 20, 'Engineer')
+# print(pack_tuple)   # Output : ('Anubhav', 20, 'Cloud_Engineer')
+
+
+
+
+
+
+
+
 
 
 # 2. Un-Packing :  is the process of extracting the values from a tuple into seprated variables.
