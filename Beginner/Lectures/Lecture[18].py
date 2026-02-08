@@ -226,7 +226,7 @@
 
 
 # 3. insert() : Insert an element at a specified position.
-# EX:
+# EX:    .insert(index,value)
 
 # fruits = ["apple" , "mango" , "cherry"]
 # fruits.insert(3,"blueberry")
@@ -279,7 +279,10 @@
 # fruits = ["apple" , "bananna" , "orange" , "bananna"]
 # print(fruits.index("bananna")) # Output : 1
 
-# NOTE: finding index - within a range
+# NOTE: finding index - within a range:
+# ----> finding the value after the given index.
+# for ex: here its search banana index after index 2
+
 # index = fruits.index("bananna" , 2)
 # print(index)  # Output : 3
 
@@ -330,11 +333,20 @@
 # numbers.sort()
 # print(numbers) # Output:  [10, 20, 30, 40] 
 
+
+
+
+
 # EX : 2
 # Sorting list in descending order:
 
 # numbers.sort(reverse=True)
 # print(numbers) #output :  [40, 30, 20, 10]
+
+
+
+
+
 
 # Ex : 3
 # Sorting with a key:
@@ -382,7 +394,7 @@
 # copy_fruits = fruits.copy() # -->  Shallow copy
 # print(copy_fruits) # Output : ["apple" , "bananna" , "orange" , "bananna"]
 
-# # NOTE: modifying rhe copy list does not affect the actual list.
+# # NOTE: modifying the copy list does not affect the actual list.
 # copy_fruits.append("mango")
 # print(copy_fruits)  # Output : ['apple', 'bananna', 'orange', 'bananna', 'mango']
 # print(fruits)  # Output : ['apple', 'bananna', 'orange', 'bananna']
@@ -439,7 +451,7 @@
 # ::List Comprehensions : 
 
 
-
+# - 3 main component of List Comprehensions : expression , for clause , if condition.
 
 # - List Comprehensions provide a Concise way to create lists. They consist of brackets containing an expression followed by a for clause , and optionally if clause.
 
@@ -456,17 +468,36 @@
 # print(squares)  #Output : [1,4,9,16,25]
 
 
+
+
+
 # # Filtering Even Number :
 
 # even_numbers = [x for x in range(1,11) if x%2 == 0]
 # print(even_numbers) # Output : [2, 4, 6, 8, 10]
 
 
+
+
+
+
 # # Applying a function to each element :
+
+# fruits = ["apple" , "banana" , "cherry"]
+# print(fruits.upper())  Output : error.
+
+
+
+
 
 # fruits = ["apple" , "banana" , "cherry"]
 # uppercase_fruits = [fruit.upper() for fruit in fruits]
 # print(uppercase_fruits) # Output : ['APPLE', 'BANANA', 'CHERRY']
+
+
+
+
+
 
 
 # # Flatten(simple list mai convert karna hai) a nested list using list comprehensions:
@@ -475,6 +506,13 @@
 
 # result = [item for sublist in nested_list for item in sublist]
 # print(result) # Output : [1, 2, 3, 4, 5, 6]
+
+
+
+
+
+# Creating a function to flatten a nested list :
+
 
 
 # def Flatten_list(list):
@@ -500,12 +538,18 @@
 
 # fruits = ["apple" , "banana" , "cherry"]
 
-# # Using for loop : 
+
+
+
+# :: Using for loop : 
 
 # for fruit in fruits:
 #     print(fruit)  # Output : ["apple" , "banana" , "cherry"]
 
-# # Using while loop :
+
+
+
+# :: Using while loop :
 
 # index = 0
 
