@@ -1,10 +1,4 @@
-rt_by_values(data):
-#    sorted_items = sorted(data.items() , key = lambda item: item[1])
+#----> delete object itself 
+# del student2
+# print(student2)   # Output :  NameError: name 'student1' is not defined. Did you mean: 'Student'?
 
-#    return {key:value for key , value in sorted_items}
-
-
-
-
-
-# print(sort_by_values(data))   # Output : {'c': 2, 'a': 5, 'd': 7, 'b': 9}
