@@ -1,0 +1,144 @@
+
+                                       # TOPIC  : File Handelling
+
+
+# ::  File Handelling in Python :
+
+# -  File Handelling in Python allows you to read from and write to files. This is important when you want to store data permanently or work with large data sets.
+
+# - Python provides built - in functions and methods to intract with files.
+
+
+
+
+
+
+# :-> Steps for file Handelling in Python : 
+
+# - Opening a file.
+# - Reading from a file.
+# - Writing to a file.
+# - Closing the file.
+
+
+
+
+
+
+
+# 1. Open a File : 
+
+# - To perform any operation (read / write) on a file , you first need to open the file using Python's open() function.
+
+# :---> Syntax : file_object = open('filename', 'mode')
+
+# :> 'Filename' : Name of the file(can be relative or absolute path). 
+# :> 'mode' : Mode in which the file is opened(read , write, append , etc).
+
+
+
+# :----> File Modes : 
+
+# 1. 'r' : Read ( default mode ). Opens the file for reading.
+# 2. 'w' : Write , Open the file for writing ( if file does not exists , it creates one).
+# 3. 'a' : Append , Opens the file for appending ( if file does not exists , it creates one).
+# 4. 'rb'/ 'wb' : Read/write in binary mode.
+
+
+# :-----> Example : Opening a file for reading
+
+# file = open('example.txt' , 'r')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2. Read from a File :
+
+# - Once a file is open , you can read from it using the following methods:
+
+# read() : Reads the entire content of the file.
+# readline() : Reads one line from the file at a time.
+# readlines() : Reads all lines into a list.
+
+
+
+
+
+# # :Example :-  Reading the entire file
+
+# file = open('example.txt', 'r')
+# content = file.read()
+# print(content)
+# file.close()
+
+
+# # :Example :- Reading one line at a time
+
+# file = open('example.txt' , 'r')
+# line = file.readline()
+# print(line)
+# file.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3. Write to a File : 
+
+# - To Write to a file , you can use the write() or writelines() method:
+
+# :> write() : Writes a string to the file.
+# :> writelines() : writes a list of strings.
+
+
+
+# ----> Example : Writing to a file ( overwrites existing content ).
+
+# file = open('example.txt' , 'w')
+# file.write("Hello , world!")
+# file.close()
+
+
+# ------> Example : Appending to a file ( add line to the end ) .
+
+# file = open('example.txt','a')
+# file.write("\n This is an appended line.")
+# file.close()
+
+
+# ------> Close a file:
+
+# file.close()
