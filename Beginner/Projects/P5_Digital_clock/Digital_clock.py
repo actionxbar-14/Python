@@ -17,7 +17,7 @@ def time():
     label.after(1000,time)
     
 
-label = tk.Label(root , font = ('poppins' , 50 , 'bold') , background = 'red' , foreground = 'black')
+label = tk.Label(root , font = ('poppins' , 50 , 'bold') , background = 'blue' , foreground = 'white')
 label.pack(anchor = 'center')
 
 time()
