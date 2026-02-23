@@ -1,0 +1,123 @@
+   
+
+
+                                      Working with Binary Data in Python 
+
+
+:--> The basics are pretty standard: 
+
+1. There are 8 bits in a byte
+2. Bits either consist of a 0 or a 1
+3. A byte can be interpreted in different ways, like binary octal or hexadecimal
+
+
+
+#NOTE : These are not character encodings, those come later. This is just a way to look at a set of 1's and 0's and see it in three different ways(or number systems).
+
+--> Ex : 
+
+Input : 10011011 
+ 
+Output :
+1001 1011 ---- 9B (in hex)
+1001 1011 ---- 155 (in decimal)
+1001 1011 ---- 233 (in octal)
+
+=>This clearly shows a string of bits can be interpreted differently in different ways. We often use the hex representation of a byte instead of the binary one because it is shorter to write, this is just a representation and not an interpretation.
+
+
+
+
+___________________________________________________________________________________________________________________
+
+
+
+:: Encoding :-
+
+- Now that we know what a byte is and what it looks like, let us see how it is interpreted, mainly in strings. Character Encodings are a way to assign values to bytes or sets of bytes that represent a certain character in that scheme. Some encodings are ASCII(probably the oldest), Latin, and UTF-8(most widely used as of today). In a sense encodings are a way for computers to represent, send and interpret human readable characters. This means that a sentence in one encoding might become completely incomprehensible in another encoding.
+
+
+
+___________________________________________________________________________________________________________________
+
+
+:: Python bytes :-
+
+
+- From a developer’s point of view, the largest change in Python 3 is the handling of strings. In Python 2, the str type was used for two different kinds of values – text and bytes, whereas in Python 3, these are separate and incompatible types. This means that before Python3 we could treat a set of bytes as a string and work from there, this is not the case now, now we have a separate data type, called bytes. This data type can be briefly explained as a string of bytes, which essentially means, once the bytes data type is initialized it is immutable.
+
+- Ex:
+
+bytestr = bytes(b'abc') 
+# initializing a string with b
+# makes it a binary string
+print(bytestr)
+print(bytestr[0])
+
+bytestr[0] = 97
+
+
+# Output: 
+
+b'abc'
+97
+Traceback (most recent call last):
+  File "bytesExample.py", line 4, in 
+    bytestr[0] = 97
+TypeError: 'bytes' object does not support item assignment
+
+
+
+=> A bytestring is what it says it is simply a string of bytes, for example '© ? ?' in 'utf-8' is :
+b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'
+
+
+=> This presents another problem, we need to know the encoding of a binary string, because the same string in another encoding(latin-1) looks different.
+Â© ð â
+
+
+--> Example:
+print(b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'.decode('utf-8'))
+print(b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'.decode('latin-1'))
+
+
+
+
+
+___________________________________________________________________________________________________________________
+
+
+
+:: Python bytearray:-
+
+- As seen above it is possible to encode or decode strings and binary strings using the encode() or decode() function. We need the encoding because in some encodings it is not possible to to decode the strings. This problem compounds when not using non Latin characters like Hebrew, Japanese and Chinese. Because in those languages more than one byte is assigned to each letter. But what do we use when we need to modify a set of bytes, we use a bytearray. 
+
+- Example:
+
+bytesArr = bytearray(b'\x00\x0F')
+
+# Bytearray allows modification
+bytesArr[0] = 255
+bytesArr.append(255)
+print(bytesArr)
+
+
+# Output:
+
+bytearray(b'\xff\x0f\xff')
+
+
+
+
+
+
+
+___________________________________________________________________________________________________________________
+
+
+:: Some Other Applications + bitwise operator :-
+
+- refer to : https://www.geeksforgeeks.org/python/working-with-binary-data-in-python/
+
+
+
