@@ -149,48 +149,119 @@
 # Paper - Rock = Paper wins.
 
 
-import random
+# import random
 
-item_list = ["Rock" , "Paper" , "Scissor"]
+# item_list = ["Rock" , "Paper" , "Scissor"]
 
-user_choice = input("Enter the choice between : Rock , Paper , Scissor :")
-computer_choice =  random.choice(item_list)
+# user_choice = input("Enter the choice between : Rock , Paper , Scissor :")
+# computer_choice =  random.choice(item_list)
 
-print(f"user_choice is : {user_choice} and computer_choice is : {computer_choice}")
-
-
-
-
-if user_choice == computer_choice:
-    print("Both Choses Same Options : Match Tied.")
-
-
-elif user_choice == 'Rock':
-
-    if computer_choice == 'Paper':
-        print("Paper Covers Rock : Computer wins")
-
-    else:
-        print("Rock smashes the Scissor : You wins")
+# print(f"user_choice is : {user_choice} and computer_choice is : {computer_choice}")
 
 
 
 
-elif user_choice == 'Paper':
-
-    if computer_choice == 'Scissor':
-        print("Scissor cuts the paper : Computer wins")
-
-    else:
-        print("Paper Covers Rock : You Wins")
+# if user_choice == computer_choice:
+#     print("Both Choses Same Options : Match Tied.")
 
 
+# elif user_choice == 'Rock':
 
-elif user_choice == 'Scissor':
+#     if computer_choice == 'Paper':
+#         print("Paper Covers Rock : Computer wins")
 
-    if computer_choice == 'Rock':
-        print("Rock smashes Scissor : computer wins")
+#     else:
+#         print("Rock smashes the Scissor : You wins")
 
-    else:
-        print("Scissor cuts the paper : You wins")
+
+
+
+# elif user_choice == 'Paper':
+
+#     if computer_choice == 'Scissor':
+#         print("Scissor cuts the paper : Computer wins")
+
+#     else:
+#         print("Paper Covers Rock : You Wins")
+
+
+
+# elif user_choice == 'Scissor':
+
+#     if computer_choice == 'Rock':
+#         print("Rock smashes Scissor : computer wins")
+
+#     else:
+#         print("Scissor cuts the paper : You wins")
+
+
+
+
+
+
+
+
+
+
+print("_____This is a Task Manager app , Here You can manage your tasks______")
+
+
+def task_manager():
+    tasks_list = []
+
+    tasks_no = int(input("Enter the total tasks:"))
+    for i in range(1 , tasks_no + 1):
+        task_name = input(f"Enter the task {i}:")
+        tasks_list.append(task_name)
+
+
+    print(f"Your total tasks are: {tasks_list}")
+
+
+    while True:
+
+        operation = int(input("Enter 1 --> Add \n Enter 2 --> Update \n Enter 3 --> delete \n Enter 4 --> View \n Enter 5 --> Exit/Terminate :"))
+
+        if operation == 1:
+            add_task = input("Enter the task you want to add :")
+            tasks_list.append(add_task)
+            print(f"{add_task} is added to the task_list")
+
+
+        elif operation == 2:
+            updated_val = input("Enter the task you want to update:")
+            if updated_val in tasks_list:
+                new_task = input("Enter the new task:")
+                task_index = tasks_list.index(updated_val)
+                tasks_list[task_index] = new_task
+                print("Task updated succusfully")
+
+
+        elif operation == 3:
+            del_val = input("Enter the task you want to delete:")
+            if del_val in tasks_list:
+                del_task_index = tasks_list.index(del_val)
+                del tasks_list[del_task_index]
+                print("task delete succusfully")
+
+
+
+        elif operation == 4:
+            print(f"Your daily tasks are : {tasks_list}")
+
+
+        elif operation == 5:
+            print("Terminating the task manager")
+            break
+
+
+
+        else:
+            print("Invalid Input")
+
+
+
+task_manager()
+
+
 
