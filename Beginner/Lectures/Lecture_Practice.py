@@ -168,3 +168,29 @@
 
 
 
+
+
+
+# a = "anubhav"
+# print(type(a))
+
+# a = 30
+# print(type(float(a)))
+
+# a = 20
+# b = 20.0
+
+# add = a + b 
+# print(type(add))
+
+
+
+
+a=True
+b=10.5
+c=a+b
+
+print (c);   output : 11.5
+
+print(type(a))
+
