@@ -35,7 +35,7 @@
 
 # # :: PASSWORD STRENGTH CHECKER:
 
-import re 
+import re    # ----> regular expression module
 
 
 
@@ -97,7 +97,7 @@ def password_checker():
 
 
 
-# Run the password checker tool
+# Run the password checker function
 
 
 if __name__ == "__main__":

@@ -251,115 +251,121 @@
 #             print("Task manager closing. Thanks for using the task manager app!!")
 
 
+# #         else:
+# #             print("invalid input")
+
+
+
+# # task_manager()
+
+
+
+
+
+
+
+
+
+
+
+
+# print("____Welcome to the Student Management System____")
+
+
+# student_grades =  { }
+
+# # add student
+
+# def add_student(name , grade):
+#     # student_grades['name'] = grade --> ERROR KRA TUNE ISME 
+#     student_grades[name] = grade 
+
+#     print(f"{name} is added with grade :{grade}")
+
+
+
+# # update student 
+
+# def update_student(name , grade):
+#     if name in student_grades:
+#         student_grades['name'] = grade
+
+#         print(f"{name} is updated!!")
+
+
+
+# # delete student
+
+# def delete_student(name):
+#     if name in student_grades:
+#         del student_grades['name']
+
+# # display student_grades
+
+# def display_all_students():
+#     if student_grades:
+#         for name, grade in student_grades.items():
+#             print(f"{name} : {grade}")
+
+
+#     else:
+#          print("No students found/added")
+
+
+
+
+
+# def main():
+
+#     while True:
+#         print("1. Add")
+#         print("2. Update")
+#         print("3. Delete")
+#         print("4. View")
+#         print("5. Exit")
+
+#         choice = int(input("Enter Your Choice:"))
+
+#         if choice == 1:
+#             name = input("Enter the name:")
+#             grade = input("Enter the grade:")
+#             add_student(name , grade)
+
+
+#         elif choice == 2:
+#             name = input("Enter the name :")
+#             grade = input("Enter the grade:")
+#             update_student(name, grade)
+
+
+#         elif choice == 3:
+#             name = input("Enter the name:")
+#             delete_student(name)
+
+
+#         elif choice == 4:
+#             display_all_students()
+          
+
+#         elif choice == 5:
+#             print("Closing the program")
+#             break 
+
+
 #         else:
 #             print("invalid input")
 
 
 
-# task_manager()
-
-
-
-
-
-
-
-
-
-
-
-
-print("____Welcome to the Student Management System____")
-
-
-student_grades =  { }
-
-# add student
-
-def add_student(name , grade):
-    # student_grades['name'] = grade --> ERROR KRA TUNE ISME 
-    student_grades[name] = grade 
-
-    print(f"{name} is added with grade :{grade}")
-
-
-
-# update student 
-
-def update_student(name , grade):
-    if name in student_grades:
-        student_grades['name'] = grade
-
-        print(f"{name} is updated!!")
-
-
-
-# delete student
-
-def delete_student(name):
-    if name in student_grades:
-        del student_grades['name']
-
-# display student_grades
-
-def display_all_students():
-    if student_grades:
-        for name, grade in student_grades.items():
-            print(f"{name} : {grade}")
-
-
-    else:
-         print("No students found/added")
-
-
-
-
-
-def main():
-
-    while True:
-        print("1. Add")
-        print("2. Update")
-        print("3. Delete")
-        print("4. View")
-        print("5. Exit")
-
-        choice = int(input("Enter Your Choice:"))
-
-        if choice == 1:
-            name = input("Enter the name:")
-            grade = input("Enter the grade:")
-            add_student(name , grade)
-
-
-        elif choice == 2:
-            name = input("Enter the name :")
-            grade = input("Enter the grade:")
-            update_student(name, grade)
-
-
-        elif choice == 3:
-            name = input("Enter the name:")
-            delete_student(name)
-
-
-        elif choice == 4:
-            display_all_students()
-          
-
-        elif choice == 5:
-            print("Closing the program")
-            break 
-
-
-        else:
-            print("invalid input")
-
-
-
-main()
+# main()
 
             
+
+
+
+
+
+
 
 
 

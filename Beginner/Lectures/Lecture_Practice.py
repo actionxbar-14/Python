@@ -186,11 +186,102 @@
 
 
 
-a=True
-b=10.5
-c=a+b
+# a=True
+# b=10.5
+# c=a+b
 
-print (c);   output : 11.5
+# print (c);   output : 11.5
 
-print(type(a))
+# print(type(a))
 
+
+# age = int(input("Enter Your age:"))
+
+# if age < 18 :
+#     print(f"Since Your age is {age}  , so You can not vote!")
+
+
+# elif age > 18 and age < 25:
+#     print(f"you are a middle age guy you must have to vote") 
+
+
+
+# elif age > 35 and age < 55:
+#     print(f"you are a senior citizen aged guy you have to decide wisey to vote") 
+
+
+# # elif age < 18:
+# #     print(f"Since Your age is {age}  , so You can not vote!")
+
+
+# else:
+#     print(f"age : {age} ke liye maine koi option nhi banaya hai")
+
+
+
+
+
+# number = int(input("Enter Your number:"))
+
+# if number > 0:
+
+#     if number % 2 == 0:
+#         print(f"{number} is positive and even")
+
+#     else:
+#         print(f"{number} is positive and odd")
+
+
+# elif number < 0:
+#     if number % 2 == 0:
+#         print(f"{number} is negative and even")
+
+#     else:
+#         print(f"{number} is negative and odd")
+
+
+# else:
+#     print("the number is zero")
+
+
+
+
+
+
+
+
+
+# if (year % 4 == 0 or year % 100 == 0) and (year % 400 == 0):
+    
+
+# 
+# year = int(input("Enter the year:"))
+
+# if year % 400 == 0:
+#     print(f"{year} is a leap year!")
+
+# elif year % 4 == 0 and year % 100 != 0:
+#     print(f"{year} is a leap year!")
+
+# else:
+#     print(f"{year} is not a leap year!")
+
+
+
+
+
+# result_leap_year = print(f"{year} is a leap year!") if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0) else print(f"{year} is not a leap year!")
+
+# print(result_leap_year)
+
+
+
+# print("____Welcome to the Password Strenght Checker____")
+
+
+# def check_password_strength(password):
+
+#     if password.len() < 8:
+#         return "Weak : Password must have 8 character"
+
+#     elif

@@ -153,10 +153,17 @@
 
 
 
-# 5.  Conditional Expressions(Ternary Operator) :
-# ::syntax : value = condition/expression if true else false
 
-# ex:
+
+
+# 5.  Conditional Expressions(Ternary Operator) :
+
+
+# ::syntax :
+
+#  value = condition/expression if true else false
+
+# Ex:
 
 # age = int(input("enter age:"))
 # status = f"{age} is under Adult catogery" if age >= 18 else f"{age} is under Minor catogery"
