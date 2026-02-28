@@ -437,20 +437,18 @@ def edit_file(filename):
 
 # function to read file
 
-def read_file(filename):
-    try:
-        with open(filename , 'x') as f:
-            content = f.read()
-            print(f"the content of file is :{filename}")
+# def read_file(filename):
+#     try:
+#         with open(filename , 'x') as f:
+#             content = f.read()
+#             print(f"the content of file is :{filename}")
 
     
-    except FileNotFoundError:
-        print(f"{filename} not found!")
+#     except FileNotFoundError:
+#         print(f"{filename} not found!")
 
-    except Exception as E:
-        print("an Error occurred!")
-
-
+#     except Exception as E:
+#         print("an Error occurred!")
 
 
 
@@ -458,66 +456,67 @@ def read_file(filename):
 
 
 
-def main():
-
-    while True:
-
-        print("___FILE MANAGER____")
-
-        print("1. Create File ")
-        print("2. Read File ")
-        print("3. Delete File ")
-        print("4. Edit File ")
-        print("5. View File ")
-        print("6. Exit Program ")
 
 
+# def main():
 
-        choice = input("Enter the task you want to perform ( 1 - 6 ) : ")
+#     while True:
 
-        if choice == '1':
-            filename = input("Enter the file-name you want to create : ")
-            create_file(filename)
+#         print("___FILE MANAGER____")
+
+#         print("1. Create File ")
+#         print("2. Read File ")
+#         print("3. Delete File ")
+#         print("4. Edit File ")
+#         print("5. View File ")
+#         print("6. Exit Program ")
 
 
-        elif choice == '2':
-            filename = input("Enter the file-name you want to create : ")
-            read_file(filename)
+
+#         choice = input("Enter the task you want to perform ( 1 - 6 ) : ")
+
+#         if choice == '1':
+#             filename = input("Enter the file-name you want to create : ")
+#             create_file(filename)
 
 
-        
-        elif choice == '3':
-            filename = input("Enter the file-name you want to delete : ")
-            delete_file(filename)
+#         elif choice == '2':
+#             filename = input("Enter the file-name you want to create : ")
+#             read_file(filename)
 
 
         
-        elif choice == '4':
-            filename = input("Enter the file-name you want to edit : ")
-            edit_file(filename)
+#         elif choice == '3':
+#             filename = input("Enter the file-name you want to delete : ")
+#             delete_file(filename)
 
 
         
-        elif choice == '5':
-            view_all_files()
+#         elif choice == '4':
+#             filename = input("Enter the file-name you want to edit : ")
+#             edit_file(filename)
 
 
-        elif choice == '6':
-            print("Closing the program.....")
-            break
+        
+#         elif choice == '5':
+#             view_all_files()
 
 
-        else:
-            print("Invalid input")
+#         elif choice == '6':
+#             print("Closing the program.....")
+#             break
+
+
+#         else:
+#             print("Invalid input")
 
 
 
 
 
-main()
+# main()
 
 
-    
 
 
 
