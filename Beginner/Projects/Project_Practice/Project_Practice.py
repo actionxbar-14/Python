@@ -492,142 +492,186 @@ def edit_file(filename):
 
 
         
-#         elif choice == '4':
-#             filename = input("Enter the file-name you want to edit : ")
-#             edit_file(filename)
+# #         elif choice == '4':
+# #             filename = input("Enter the file-name you want to edit : ")
+# #             edit_file(filename)
 
 
         
-#         elif choice == '5':
-#             view_all_files()
+# #         elif choice == '5':
+# #             view_all_files()
 
 
-#         elif choice == '6':
-#             print("Closing the program.....")
-#             break
+# #         elif choice == '6':
+# #             print("Closing the program.....")
+# #             break
+
+
+# #         else:
+# #             print("Invalid input")
+
+
+
+
+
+# # main()
+
+
+
+
+
+
+# contacts = { }
+
+# while True:
+
+#     print("____Contact Book App_____")
+#     print("1. Create Contact")
+#     print("2. View Contact")
+#     print("3. Update Contact")
+#     print("4. Delete Contact")
+#     print("5. Search Contact")
+#     print("6. Count Contact")
+#     print("7. Exit")
+
+
+#     choice = input("Enter the choice (1 - 7) : ")
+
+#     if choice == '1':
+#         name = input("Enter your name :")
+#         if not name in contacts:
+#             age = input("Enter age : ")
+#             email = input("Enter email  :")
+#             mobile_no = input("Enter mobile_no : ")
+#             contacts[name] = {
+#                 'age' : int(age),
+#                 'email' : email,
+#                 'mobile_no': mobile_no
+
+#             }
+#             print(f"Contact name: {name} created succussfully!")
+
+        
+#         else:
+#             print(f"Contac name :  {name} already exists!")
+
+
+
+#     elif choice == '2':
+#         name = input("Enter the name : ")
+#         if name in contacts:
+#             contact = contacts[name]
+#             print(f"name : {name} , age : {age} , email : {email} , mobile_no  :{mobile_no}")
+
+#         else:
+#             print("contact not found!")
+
+
+    
+#     elif choice == '3':
+#         name = input("Enter the name : ")
+#         if name in contacts:
+#             age = input("Enter the updated age:")
+#             email = input("Enter the email:")
+#             mobile_no = input("Enter the updated mobile_no : ")
+#             # print(f"name : {name} , age : {age} , email : {email} , mobile_no : {mobile_no}")
+#             print("Contact updated succussfully!")
+
+
 
 
 #         else:
-#             print("Invalid input")
+#             print("contact not found")
+
+
+#     elif choice == '4':
+#         name = input("Enter the name :")
+#         if name in contacts:
+#             del contacts[name]
+#             print("contact deleted succussfully!")
+
+#         else:
+#             print("contact not found")
 
 
 
+#     elif choice == '5':
+#         search_name = input("Enter the name:")
+#         found = False 
+#         for name , contact in contacts.items():
+#             if search_name in name:
+#                 print(f"Contact found and details are:")
+#                 print(f"name : {name} , age : {age} , email : {email} , mobile_no : {mobile_no}")
+#                 found = True
 
 
-# main()
-
-
-
-
-
-
-contacts = { }
-
-while True:
-
-    print("____Contact Book App_____")
-    print("1. Create Contact")
-    print("2. View Contact")
-    print("3. Update Contact")
-    print("4. Delete Contact")
-    print("5. Search Contact")
-    print("6. Count Contact")
-    print("7. Exit")
-
-
-    choice = input("Enter the choice (1 - 7) : ")
-
-    if choice == '1':
-        name = input("Enter your name :")
-        if not name in contacts:
-            age = input("Enter age : ")
-            email = input("Enter email  :")
-            mobile_no = input("Enter mobile_no : ")
-            contacts[name] = {
-                'age' : int(age),
-                'email' : email,
-                'mobile_no': mobile_no
-
-            }
-            print(f"Contact name: {name} created succussfully!")
-
-        
-        else:
-            print(f"Contac name :  {name} already exists!")
+#             else:
+#                 print("Contact not found!")
 
 
 
-    elif choice == '2':
-        name = input("Enter the name : ")
-        if name in contacts:
-            contact = contacts[name]
-            print(f"name : {name} , age : {age} , email : {email} , mobile_no  :{mobile_no}")
-
-        else:
-            print("contact not found!")
-
+#     elif choice == '6':
+#         print(f" the total no. of contacts are : {len(contacts)}")
 
     
-    elif choice == '3':
-        name = input("Enter the name : ")
-        if name in contacts:
-            age = input("Enter the updated age:")
-            email = input("Enter the email:")
-            mobile_no = input("Enter the updated mobile_no : ")
-            # print(f"name : {name} , age : {age} , email : {email} , mobile_no : {mobile_no}")
-            print("Contact updated succussfully!")
+#     elif choice == '7':
+#         print("Closing the program....")
+#         break
 
 
-
-
-        else:
-            print("contact not found")
-
-
-    elif choice == '4':
-        name = input("Enter the name :")
-        if name in contacts:
-            del contacts[name]
-            print("contact deleted succussfully!")
-
-        else:
-            print("contact not found")
-
-
-
-    elif choice == '5':
-        search_name = input("Enter the name:")
-        found = False 
-        for name , contact in contacts.items():
-            if search_name in name:
-                print(f"Contact found and details are:")
-                print(f"name : {name} , age : {age} , email : {email} , mobile_no : {mobile_no}")
-                found = True
-
-
-            else:
-                print("Contact not found!")
-
-
-
-    elif choice == '6':
-        print(f" the total no. of contacts are : {len(contacts)}")
-
-    
-    elif choice == '7':
-        print("Closing the program....")
-        break
-
-
-    else:
-        print("Invalid Input!")
+#     else:
+#         print("Invalid Input!")
 
 
 
         
+# step - 1: Importing the required library
 
+from spellchecker import SpellChecker
 
+# step - 2: Creating the App Class
 
+class SpellCheckerApp:
+    def __init__(self):
+        self.spell = SpellChecker()
+        
+    def correct_text(self , text):
+        words = text.split() # ----> hello World ['hello' , 'World']
+        corrected_words = []
+        
+        for word in words:
+            corrected_word = self.spell.correction(word)
+            if corrected_word != word.lower():
+                print(f"Correcting  '{word}' to '{corrected_word}' ")
+                corrected_words.append(corrected_word)
+                
+        
+        # step : 3 returning the corrected text
+        return ''.join(corrected_words)
+    
+    #step : 4 running the app
+    def run(self):
+        print("__SPELL CHECKER__")
+        
+        
+        while True:
+            text = input('Enter text to check (or type "exit" to quit ) : ')
+            
+            if text.lower() == 'exit':
+                print("Closing the Program....")
+                break 
+            
+            corrected_text = self.correct_text(text)
+            print(f'Corrected Text : {corrected_text}')
+            
+            
+# step : 5 running the main program
+
+# if __name__ == '__main__':
+#     SpellCheckerApp.run()
+
+if __name__ == '__main__':
+    SpellCheckerApp().run()
 
 
 
