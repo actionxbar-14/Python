@@ -114,6 +114,6 @@ print(myName)
 
 # 4. variables name cant be a reserved word.
 # ex:
-for = 20 #-> not valid
+# for = 20 #-> not valid
 
 
