@@ -10,5 +10,5 @@
 
 
 
-# NOTE: GO to the written note book of Python for this theoritcall content. 
+# NOTE: GO to the written note book of Python for this theoritcal content. 
 
