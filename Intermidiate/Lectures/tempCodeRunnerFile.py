@@ -1,8 +1,8 @@
+a = 100
+# print("id a : ", id(a))
+# b = 100
+# print("id b : " , id(b))
 
-# name , age , salary = "shantanu" ,22 ,  244349.9
-# print(name) , print(age) , print(salary)
 
-# Output : 
-# shantanu
-# 22
-# 244349.9
+# print(a == b)  # True (  100 == 100  )
+# print(a is b)  # True ( id(a) == id(b) )
