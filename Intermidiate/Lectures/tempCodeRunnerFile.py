@@ -1,2 +1,4 @@
-a = 5
-# b = 6
+x = 100
+# print(type(x))
+
+# print(dir(x))
