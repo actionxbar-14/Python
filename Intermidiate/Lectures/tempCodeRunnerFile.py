@@ -1,4 +1,5 @@
-x = 100
-# print(type(x))
+,20 ,sep = '-')  #--> Hello-20
 
-# print(dir(x))
+# print("Hello", 20, sep = '\t')  #--> Hello   20
+
+# print("hello" , 20 , sep = "@$")  #--> hello@$20
