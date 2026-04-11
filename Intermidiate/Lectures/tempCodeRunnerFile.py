@@ -1,5 +1,6 @@
-,20 ,sep = '-')  #--> Hello-20
+name = input("enter name  :")  #--> anubhav
 
-# print("Hello", 20, sep = '\t')  #--> Hello   20
-
-# print("hello" , 20 , sep = "@$")  #--> hello@$20
+for char in name :
+    if char == 'h':
+        continue  
+    print(char , end = " ")
