@@ -1,0 +1,116 @@
+
+:: Python Concept Used in this Project :
+
+
+1. list  :   To store groups of words like names , actions and places. 
+
+2. random.choice() : To pick one item randomly from a list. 
+
+3. print() : To show the fake headline on screen. 
+
+4. input() : To ask the user if they want another headline. 
+
+5. while loop : To repeat the process untill the user says "no". 
+
+6. string concatenation or f-strings  : To form a sentence using selected words. 
+
+
+
+
+_______________________________________________________________________________________________________________________
+
+
+
+
+
+
+:: Steps of the Project :
+
+
+# Step 1 :  Import the random module. 
+
+# Step 2 : Create lists of subjects , actions , and places - all with indian examples. 
+
+# Step 3 : Use random.choice() to pick one word from each list. 
+
+# Step 4 : Combine the words into a headline using string formatting. 
+
+# Step 5 : Print the headline to the user. 
+
+# Step 6 : Ask the user if they want another headline. 
+
+# Step 7 : If yes , repeat ; if no , stop the program. 
+
+
+
+_______________________________________________________________________________________________________________________
+
+
+:: Pseudo Code of the Project :
+
+1. Start the Program. 
+
+2. IMPORT the 'random' module. 
+
+3. CREATE a list of Indian subjects,
+   Example :
+    [ "Sharukh khan , "virat kohli" , "Nirmala sitharaman", "A Mumbai cat" , "A group of monkeys" ].
+
+4. CREATE a list of Indian actions,
+   Example : 
+   ["launches" , "cancels" , "dances with" , "eats" , "declares war on"].
+
+5. CREATE a list of Indian places or things,
+   Example :
+   ["at Red Fort" , "in Mumbai local train" , "a plate of samosa's , "inside parliament" , "at ganga ghat" ]. 
+
+6. CREATE a list of emojis ,
+   Example :
+    [
+    "\U0001F525",
+    "\U0001F602",
+    "\U0001F631",
+    "\U0001F60E",
+    "\U0001F680",
+    "\U0001F92F",
+    "\U0001F4A5",]
+
+
+7. START a loop ( use while loop ) that keeps running untill the user says "no" ,
+
+
+  a.  RANDOMLY choose one item from each list ( subject , action , place , emoji ).
+
+  b.  COMBINE the four chosen words into one sentence using string formatting,
+      Example format : " BREAKING  : {subject} {action} {place} {emoji} ! "
+
+  c.  PRINT the final fake news headline. 
+
+  d.  ASK the user if they want to generate another headline (yes/no).
+
+  e.  IF user says , "no" , END the loop.
+
+
+
+8. PRINT a goodbye message .
+
+9. END the program. 
+
+
+
+
+
+
+
+
+_______________________________________________________________________________________________________________________
+
+
+
+:: Future Upgradation :
+
+1. specific categories  like sports , policits etc.
+
+2. take details of person and places. 
+
+3. store the file and give it to the ai chatbot as a prompt and generate an image related to that and show as output in your project. 
