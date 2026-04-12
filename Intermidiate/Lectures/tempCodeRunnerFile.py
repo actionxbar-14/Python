@@ -1,6 +1,7 @@
-name = input("enter name  :")  #--> anubhav
 
-for char in name :
-    if char == 'h':
-        continue  
-    print(char , end = " ")
+while (ans := input("Do You want to continue(y/n) :").lower()) == 'y':
+    print("process the request") 
+    
+else:
+    print('terminate the process')
+    
