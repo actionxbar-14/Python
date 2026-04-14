@@ -6,15 +6,14 @@
 
                 #                 PYTHON
 
-                #   1. Beginner Friendly       5. Simple Text
+                #   1. Beginner Friendly       5. Simple Syntax
                 #   2. Easy to learn           6. Community Support
                 #   3. Scalability             7. Extensive Libraries
                 #   4. Free( Open Source )     8. Dynamic Typed
 
 
 
-# _________________________________________________________________________________________ 
-
+# _____________________________________________________________________________________________________________________
 
 # :: First Python Program :
 
@@ -108,6 +107,8 @@
 
 # :: Python Code Execution Steps :
 
+
+
 # 1. Lexical Analysis : 
 # - The Interpreter breaks down the code into smaller parts called tokens. identifying words , numbers , symbols and punctuation.
 
@@ -163,6 +164,6 @@
 
 
 
-# ___________________________________________________________________________
+# _______________________________________________________________________________________________________________________
 
 

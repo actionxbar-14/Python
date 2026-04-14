@@ -27,7 +27,7 @@
 # **                    Exponentiation
 # + , - , ~             Positive-Addition , Negative-Subtraction , BitWise NOT.
 # * , / , // , %        Multiplication , Divison , Floor Divison , Modulus.
-# == ,!=,>,>=,<=        Comparison - double equal to , not equal to , greater than , greater than equal to ,      less then equal to.
+# == ,!=,>,>=,<=        Comparison - double equal to , not equal to , greater than , greater than equal to ,     less then equal to.
 # NOT , AND , OR        logical NOT , Logical AND , Logical OR.
 # << , >>               Bitwise Left Shift , Bitwise Right Shift.
 # & , ^ , |             Bitwise AND , Bitwise XOR , BitWise OR.
