@@ -1,6 +1,6 @@
-bowlers = ['Ishant' , 'bumrah' , 'ashwin']
-# bowlers.append('jadeja')
 
-# print(bowlers.append('jadeja'))   # output : None
+# cart = ['mobile' , 'earphone' , 'laptop' , 'microphone' , 'laptop']
+# cart.remove('pendrive')
 
-# print(bowl
+# print(cart) # output :    cart.remove('pendrive')
+# # ValueError: list.remove(x): x not in list

@@ -68,7 +68,7 @@
 # - Ex : ( getting largest string in a list )
 
 # Name = ['Shantanu' , 'Rohan' , 'Aditya' , 'Zebra']
-# print(max(Name))  #--> Zebrab ( because 'z' ka ascii value sabse jada hai)
+# print(max(Name))  #--> Zebra ( because 'z' ka ascii value sabse jada hai)
 
 
 
@@ -130,6 +130,15 @@
 # print(min(names, key = len))  # output : soham
 
 
+
+
+
+
+# - Ex : (using default value)
+
+# Name = []
+
+# print(min(Name, key = len , default = 'Empty'))  # Output : Empty
 
 
 
