@@ -342,16 +342,16 @@
 # Ex:  
 
 
-data_list = [5 , 10 , 10 , 4 , 3 ,5 , 5, 3, 6]
+# data_list = [5 , 10 , 10 , 4 , 3 ,5 , 5, 3, 6]
 
-print("orginal list :", data_list )
+# print("orginal list :", data_list )
 
-removed_duplicate_list = list(dict.fromkeys(data_list))   # --> { 5 : none , 10 : None , 4 : None , 3 : None ....}
-
-
+# removed_duplicate_list = list(dict.fromkeys(data_list))   # --> { 5 : none , 10 : None , 4 : None , 3 : None ....}
 
 
-print(removed_duplicate_list)  # output  : [5, 10, 4, 3, 6]
+
+
+# print(removed_duplicate_list)  # output  : [5, 10, 4, 3, 6]
 
 
 
