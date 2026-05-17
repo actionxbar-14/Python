@@ -1,4 +1,7 @@
+student = { 'raj' : 10000 , 'jay' : 20000}
+# print('before updation : ' , student)  # output : before updation :  {'raj': 10000, 'jay': 20000}
 
-a = a + [40 , 50]
-print("Value of a : " , a)   # output : Value of a :  [10, 20, 30, 40, 50]
-print("id of a :", id(a))    # output : id of a : 1904437918272
+# student.update({'jay ': 30000})
+# print('after updation : ' , student) #output : after updation :  {'raj': 10000, 'jay': 20000, 'jay ': 30000}
+
+
