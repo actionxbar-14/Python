@@ -583,6 +583,18 @@
 
 
 
+# :-> Advantages : 
+
+# 1.  Compact and elegant code 
+# 2.  Less code 
+# 3.  Faster execution 
+
+
+# :-> Disadvantages : 
+
+# 1. complex syntax  
+# 2. Hard to understand
+
 
 
 
