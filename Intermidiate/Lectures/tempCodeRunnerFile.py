@@ -1,10 +1,9 @@
-import json
+nums = [3 , 6 ,8 , 12 , 14 ,15]
+sq_num = []
 
-sports = ['cricket' , 'kabaddi' , 'tennis' , 'badminton']
+for num in nums:
+    if num%2 == 0:
+        if num%3 == 0:
+             sq_num.append(num*num)
 
-dict_enumerate = dict(list(enumerate(sports , 1)))
-
-f = open('dict_enumerate.json' , 'w')
-json.dump(dict_enumerate , f)
-
-f.close()
+print(sq_num)  # output : [36, 64, 144, 196]
