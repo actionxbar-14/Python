@@ -1,9 +1,9 @@
-nums = [3 , 6 ,8 , 12 , 14 ,15]
-sq_num = []
+ms = [1, 2 ,3 ,4 ,5]
+my_dict = {}
 
 for num in nums:
     if num%2 == 0:
-        if num%3 == 0:
-             sq_num.append(num*num)
+        my_dict[num] = num**2
+ 
+print(my_dict)  # output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 
-print(sq_num)  # output : [36, 64, 144, 196]
