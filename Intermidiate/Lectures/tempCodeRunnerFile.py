@@ -1,9 +1,15 @@
-ms = [1, 2 ,3 ,4 ,5]
-my_dict = {}
 
-for num in nums:
-    if num%2 == 0:
-        my_dict[num] = num**2
- 
-print(my_dict)  # output : {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+my_str =  "a ,a ,a ,b ,b ,c ,c ,c"  
+my_list = my_str.split(',')
 
+visited = []
+final_list = []
+
+for ch in my_list:
+    if ch not in visited:
+        final_list.append(f"{ch} : {my_list.count(ch)}")
+        visited.append(ch)
+        
+print(final_list)
+print(", ".join(final_list))
+  
