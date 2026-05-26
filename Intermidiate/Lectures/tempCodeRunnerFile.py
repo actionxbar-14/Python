@@ -1,1 +1,2 @@
-num = 20   # local variable
+= lambda x , y : x + y
+print(ad
