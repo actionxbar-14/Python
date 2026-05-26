@@ -135,7 +135,7 @@
 
 
 
-# _______________________________________________________________________________________________________________________ 
+# ________________________________________________________________________________________________________________________________________
 
 
 # :: Python Interview Question :  
@@ -244,3 +244,112 @@
 # print(final_list)
 # print(", ".join(final_list))
   
+
+
+
+
+# ________________________________________________________________________________________________________________________________________
+
+
+
+
+# ::  Python Interview Question : 
+
+# Question 1 : Write Python Program for : 
+
+# Given : my_str = 'my23name45is'
+# we want Output :  'si23eman45ym' 
+
+
+
+
+# Answer :  
+
+
+# my_str = 'my23name45is'
+# output = ''
+
+# alphas = [char for char in reversed(my_str) if char.isalpha()]
+# print(alphas)  # output : ['s', 'i', 'e', 'm', 'a', 'n', 'y', 'm'] 
+
+# i = 0
+# for char in my_str:
+#     if char.isalpha():
+#         output += alphas[i]
+#         i += 1 
+#     else:
+#         output += char
+        
+# print(output)  # output : si23eman45ym
+
+
+
+
+
+
+
+
+# ________________________________________________________________________________________________________________________________________
+
+
+
+# :: Python Interview Question : 
+
+
+
+# Question : 
+# Given :- student_data = {
+    # 'jay' : {'details' : {'roll' : 101 , 'marks' : [92 , 89 , 90 , 95 , 78]}},
+    # 'viru' : {'details' : {'roll' : 102 , 'marks' : [61 , 81 , 91 , 98 , 79]}},
+    # 'basanti' : {'details' : {'roll' : 103 , 'marks' : [83 , 89 , 80 , 95 , 78]}},
+    # 'thakur' : {'details' : {'roll' : 104 , 'marks' : [52 , 69 , 90 , 95 , 78]}},
+    
+# }
+
+# -> We have to find the percentage gain by the each student : 
+
+
+# Answer : 
+
+
+# student_data = {
+#     'jay' : {'details' : {'roll' : 101 , 'marks' : [92 , 89 , 90 , 95 , 78]}},
+#     'viru' : {'details' : {'roll' : 102 , 'marks' : [61 , 81 , 91 , 98 , 79]}},
+#     'basanti' : {'details' : {'roll' : 103 , 'marks' : [83 , 89 , 80 , 95 , 78]}},
+#     'thakur' : {'details' : {'roll' : 104 , 'marks' : [52 , 69 , 90 , 95 , 78]}}   
+# }
+
+# jay_percantage = student_data['jay']['details']['marks']
+# viru_percantage = student_data['viru']['details']['marks']
+# basanti_percantage = student_data['basanti']['details']['marks']
+# thakur_percantage = student_data['thakur']['details']['marks']
+
+
+
+
+
+
+# student_name = [key for key in student_data.keys()]
+
+# # print(student_name)
+
+# percentage_data = [sum(jay_percantage)  , sum(viru_percantage) , sum(basanti_percantage) , sum(thakur_percantage)]
+
+# # print(percentage_data)
+
+# result_student = {}
+
+# result_student.update({student_name[0] : f'{percentage_data[0]*10/100}%' , student_name[1] : f'{percentage_data[1]*10/100}%' , student_name[2] : f'{percentage_data[2]*10/100}%' , student_name[3] : f'{percentage_data[3]*10/100}%'})
+
+# print(result_student)
+
+
+
+# print(f"{sum(jay_percantage) * 10/100} %")
+# print(f"{sum(viru_percantage) * 10/100} %")
+# print(f"{sum(basanti_percantage) * 10/100} %")
+# print(f"{sum(thakur_percantage) * 10/100} %")
+
+
+
+
