@@ -107,7 +107,7 @@
 
 
 # :: What is an identifier : 
-# - an identifier is a name using which we can identify a particular object. Objects can ve variable, function name , class name etc. 
+# - an identifier is a name using which we can identify a particular object. Objects can be variable, function name , class name etc. 
 
 # - In Functional Programming, there are four types of identifiers. 
 
@@ -199,10 +199,10 @@
 
 
 
-# 1.) Global identifiers :- 
+# 2.) Global identifiers :- 
 
 # - Jo bhi identifiers ham function or class/block ke bahar banate hai , unhe ham kahte hai Global identifiers. 
-# - Variables defined Outside the function and class/blocl are called Global variables. 
+# - Variables defined Outside the function and class/block are called Global variables. 
 # - Scope : global to the Program after the decleration of varibale/identifier. 
 
 
@@ -241,7 +241,7 @@
 
 
 
-# NOTE : globals() function is used to print all the global function present in thr program and it retuns an dictionary of global variables. and we can use this function anywere in the program. 
+# NOTE : globals() function is used to print all the global function present in the program and it retuns an dictionary of global variables. and we can use this function anywere in the program. 
 
 # - Ex : 
 
@@ -389,7 +389,7 @@
 # result = calci(10 ,20)
 # print(result)   # output : (30, -10)
 
-# # :--> punpacking :
+# # :--> unpacking :
 
 # n1 , n2 = calci(10 ,20)
 
