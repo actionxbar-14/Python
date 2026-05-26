@@ -106,15 +106,15 @@
 
 # :: FUNCTION WITH PARAMETERS :
 
-# a = int(input("Enter value of a:"))
-# b = int(input("Enter value of b:"))
 
-# def Sum_numbers():
+# def Sum_numbers(a, b):
+#     a = int(input("Enter a :"))
+#     b = int(input("Enter b :"))
    
 #     return a+b
 
-# Sum = Sum_numbers()
-# print(f"Sum of {a}+{b} is = {Sum}")
+# Sum = Sum_numbers(2, 5)
+# print(f"Sum is = {Sum}")   # output : 10
 
 
 
@@ -130,7 +130,8 @@
 
 
 
-# calling this function with arguments and storing the result in the variable sum
+# :: Calling this function with arguments and storing the result in the variable sum : 
+
 # Sum = Sum_numbers() #output: parameter value(a=2,b=4) total : 6.
 # Sum = Sum_numbers(4,4) #output : parameter value(a=4,b=4) total : 8.
 # print(f"Sum is = {Sum}")
@@ -149,7 +150,7 @@
 
 
 
-#Function to Convert Celsius to Fahrenheit: [ Fahrenheit = ( celsius * 9/5 ) + 32 ]
+# :: Function to Convert Celsius to Fahrenheit: [ Fahrenheit = ( celsius * 9/5 ) + 32 ]
 
 # def celsius_to_fahrenheit(celsius):
 #     Fahrenheit = (celsius*9/5)+32
@@ -158,8 +159,8 @@
 # temp_f = celsius_to_fahrenheit(29)
 # print(temp_f)
 
-#NOTE : with return statement function ka type float/int ayega,
-        # without return statement function ka type none ayega.
+#NOTE : with return statement , function ka type float/int ayega and
+        # without return statement  ,function ka type none ayega.
 
 
 
