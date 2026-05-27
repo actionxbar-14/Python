@@ -1,2 +1,8 @@
-= lambda x , y : x + y
-print(ad
+from functools import partial 
+
+def add(n1 , n2 , n3 , n4):
+    return n1 + n2 + n3 + n4  
+
+add = partial(add , n1 = 2 , n2 = 3)
+
+print(add(5 , 10)) 
