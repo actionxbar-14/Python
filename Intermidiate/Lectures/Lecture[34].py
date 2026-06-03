@@ -385,14 +385,14 @@
 
 # - Ex : 
  
-def outer():
+# def outer():
     
-    def inner():
-        print("hello")
+#     def inner():
+#         print("hello")
         
-    return inner 
+#     return inner 
 
 
-inner = outer()
+# inner = outer()
 
-inner
+# inner
