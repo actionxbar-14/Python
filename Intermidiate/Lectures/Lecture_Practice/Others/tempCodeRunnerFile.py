@@ -1,9 +1,9 @@
+=  open(r'C:\Users\hp\OneDrive\Desktop\Python\Intermidiate\Lectures\Lecture_Practice\Others\one.txt' , mode = 'r')
+# f2 =  open(r'C:\Users\hp\OneDrive\Desktop\Python\Intermidiate\Lectures\Lecture_Practice\Others\two.txt' , mode = 'a')
 
-lang1 = ['marathi' , 'hindi' , 'gujrati' , 'urdo']
-lang2 = ['english', 'french' , 'japanese']
-print(lang1)
 
-for lang in lang2:
-    lang2.append(lang)
-    
-print(lang1)
+# data = f1.read()
+# f2.write(data)
+
+# f1.close()
+# f2.close()
