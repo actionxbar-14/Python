@@ -327,6 +327,9 @@
 
 
 
+# 5.) Hybrid Inheritance : 
+# - It contains multiple types of inheritance. 
+
 
 
 
