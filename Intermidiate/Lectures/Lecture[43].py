@@ -302,18 +302,18 @@
 # - Ex :  
 
 
-class Area:
-    def area(self , l = 0, b = 0):
-        if l > 0 and b > 0:
-            print("area og rectange :" , l*b)
-        elif l > 0 and b == 0:
-            print("area of square is:" , l*l)
+# class Area:
+#     def area(self , l = 0, b = 0):
+#         if l > 0 and b > 0:
+#             print("area og rectange :" , l*b)
+#         elif l > 0 and b == 0:
+#             print("area of square is:" , l*l)
 
 
-a = Area()
+# a = Area()
 
-a.area(10)
-a.area(10 , 20)
+# a.area(10)
+# a.area(10 , 20)
 
 
     
