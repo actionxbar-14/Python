@@ -771,7 +771,193 @@ print(b1.__dict__)  # output : {'bank_balance': 1000, 'aadhar_number': '8976 567
 # 12.  __call__() method in Python : 
 
 # - In Python , the __call__() method is a special method that allows an object to be called as if it were a function. 
+# - When the __call__() method is defined within a class , instances of that class become callable , just like functions. 
 
+# - Ex : 
+
+
+
+
+
+
+# class Bank:
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         print("init is running")
+#         self.bank_balance = balance 
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no 
+#         self.customer_name = name 
+    
+#     def __contains__(self, instance_var):
+#         return instance_var in self.__dict__     #--> { '' : val }
+
+
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , 'Shantanu Kejkar')
+
+
+
+# b1()   # output :  b1()
+#     ~~^^
+# TypeError: 'Bank' object is not callable
+
+
+# NOTE : b1() object is not callable , for making the object callable we have to make a __call__() method inside the class. 
+
+
+# - Ex : 
+
+
+
+
+# class Bank:
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         print("init is running")
+#         self.bank_balance = balance 
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no 
+#         self.customer_name = name 
+    
+#     def __contains__(self, instance_var):
+#         return instance_var in self.__dict__     #--> { '' : val }
+    
+#     def __call__(self):
+#         print("code for the object call")
+
+
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , 'Shantanu Kejkar')
+
+
+
+# b1()  # output : code for the object call
+
+
+
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+# 13.  __iter__() in Python :- 
+
+# - In Python , the __iter__() method is a special method that enables instances of a class to be iterable. 
+# - When this method is defined within a class , instances of that class become iterable , meaning they can be used in iteration constructs such as loops. 
+
+
+# - Ex : sirf variables ke name iterate krwane ke liye :
+
+
+  
+
+# class Bank:
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         print("init is running")
+#         self.bank_balance = balance 
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no 
+#         self.customer_name = name 
+    
+#     def __contains__(self, instance_var):
+#         return instance_var in self.__dict__     #--> { '' : val }
+    
+#     def __call__(self):
+#         print("code for the object call")
+
+#     def __iter__(self):
+#         return iter(self.__dict__)
+    
+      
+        
+
+
+
+
+
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , 'Shantanu Kejkar')
+
+
+
+
+
+# for i in b1:
+#     print(i)
+
+# output : 
+# bank_balance
+# aadhar_number
+# account_number
+# customer_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# - Ex :  variables +  value print krwane ke liye :
+
+
+  
+
+# class Bank:
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         print("init is running")
+#         self.bank_balance = balance 
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no 
+#         self.customer_name = name 
+    
+#     def __contains__(self, instance_var):
+#         return instance_var in self.__dict__     #--> { '' : val }
+    
+#     def __call__(self):
+#         print("code for the object call")
+
+#     def __iter__(self):
+#         return iter(self.__dict__.items())
+    
+      
+        
+
+
+
+
+
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , 'Shantanu Kejkar')
+
+
+
+
+
+# for i in b1:
+#     print(i)
+
+# output : 
+# ('bank_balance', 100)
+# ('aadhar_number', '8976 5678 9091')
+# ('account_number', 'IBH7890')
+# ('customer_name', 'Shantanu Kejkar')
 
 
 
@@ -793,3 +979,317 @@ print(b1.__dict__)  # output : {'bank_balance': 1000, 'aadhar_number': '8976 567
 
 
 # _______________________________________________________________________________________________________________________________________
+
+# 14.  __add__() method : 
+
+# - Ex : 
+
+
+# print( 10 + 20 )  # output : 30
+
+# print((10).__add__(20))  # output : 30
+
+
+
+
+
+
+
+# 15.__eq__() method : 
+
+# - Ex : 
+
+
+# print(10 == 20) # output : False
+
+# print((10).__eq__(20))  # output : False
+
+
+
+
+
+
+
+
+# 16.  __gt__() method : 
+
+# - Ex : 
+
+# print(10 > 20)  # output :  False
+
+# print((10).__gt__(20))  # output: False
+
+
+
+
+
+ 
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+
+# 17. __module__ : 
+
+# - It represents the name of the module in which the class was defined. 
+# - If the object is not imported and in the same class where __module__ is called then it gives __main__ as output , otherwise if the module is imported then it is return the module name through which it is imported. 
+
+# - Ex : 
+
+# class Bank: 
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         self.bank_balance = balance
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no  
+#         self.customer_name = name 
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , "Shantanu kejkar") 
+
+
+
+# print(b1.__module__) # output : __main__
+
+
+
+# :--> In example.py :
+
+# class Bank: 
+#     def __init__(self , balance , aadhar , acc_no , name):
+#         self.bank_balance = balance
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no  
+#         self.customer_name = name 
+
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , "Shantanu kejkar") 
+
+
+
+# :--> In example1.py : 
+
+# from example import b1 
+
+# print(b1.__module__)   
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+
+# 18. __bases__ attribute : 
+
+# - It repersents a tuple containing the base classes of the class. 
+
+# - Ex : 
+
+# class Parent:
+#     pass 
+
+# class Child(Parent):
+#     pass 
+
+# class Grandchild(Child , Parent):
+#     pass 
+
+
+
+# print(Child.__bases__)  # output : (<class '__main__.Parent'>,)
+
+
+# g = Grandchild()
+
+# print(g.__bases__)  # output :     print(g.__bases__)
+#           ^^^^^^^^^^^
+# AttributeError: 'Grandchild' object has no attribute '__bases__'. Did you mean: '__class__'?
+
+
+
+# NOTE : we cant use __bases__ for an class attributes for that we have to use the __class__ attribute :
+
+
+# - Ex : 
+
+
+# class Parent:
+#     pass 
+
+# class Child(Parent):
+#     pass 
+
+# class Grandchild(Child , Parent):
+#     pass 
+
+
+
+# print(Child.__bases__)  # output : (<class '__main__.Parent'>,)
+
+
+# g = Grandchild()
+
+# print(g.__class__)   # output : <class '__main__.Grandchild'>
+
+
+
+
+
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+
+# 19.  __defaults__ attribute : 
+
+# - It represents a tuple containing the default argument values for the parameters of the function. 
+
+
+# - Ex : 
+
+# def details(age, name = None , country = 'India'):
+#     pass 
+
+
+# print(details.__defaults__)   # output : (None, 'India')
+
+
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+
+# 20.  __name__ attribute : 
+
+# - When code is executed from the module where it presents :- __name__ value is __main__. 
+
+# - When code is executed when imported in other module :-  __name__ value is modulename. 
+
+# - Ex : 
+
+# print("hello world") 
+
+# print(__name__) # output : __main__
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+# 21. __doc__ : 
+
+# - returns a docstring of an object or functions. 
+
+# - Ex : 
+
+# class Bank: 
+#     '''This is Bank class which will be used for creating objects'''
+#     def __init__(self , balance , aadhar  , acc_no , name):
+#         print("init is running")
+#         self.bank_balance = balance 
+#         self.aadhar_number = aadhar 
+#         self.account_number = acc_no 
+#         self.customer_name = name 
+
+# b1 = Bank(100 , '8976 5678 9091' , 'IBH7890' , 'shantanu kejkar')
+
+
+# print(b1.__doc__)
+
+# output : 
+# init is running
+# This is Bank class which will be used for creating objects
+
+
+
+
+
+
+
+
+# _______________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+# :: What is docstring : 
+
+# -  it is a string literal that appear right after the definition of function , class , module. 
+
+# - Ex :  
+
+# def add(n1 , n2):
+#     """ 
+#     Adds two numbers and return the result . 
+#     arguments :- 
+#       n1 :- decimal integer 
+#       n2 :- decimal integer 
+#       return :- decimal addition
+
+
+#     """
+#     return n1 + n2 
+
+# print(add.__doc__)  # output : 
+# Adds two numbers and return the result . 
+# arguments :- 
+#   n1 :- decimal integer 
+#   n2 :- decimal integer 
+#   return :- decimal addition
+
+
+# print(help(add))  # output : 
+# Adds two numbers and return the result . 
+# arguments :- 
+#   n1 :- decimal integer 
+#   n2 :- decimal integer 
+#   return :- decimal addition
+
+
+
+
+
+
+# NOTE : We can also check this by help(functionName). 
+
+
+
+
+
+
+# :--> Docstrings and purpose : 
+
+# 1.) Function :- arguments and return values. 
+# 2.) Class :- attributes and methods. 
+# 3.) Modules :- List of classes and functions. 
+# 4.) Package :- List of modules with functionality. 
+
+
+
+
+# :--> What is the difference between comments and docstrings. 
+
+# 1.) Comments are ignored by interpreter . But , docstrings are not ignored. 
+
+# 2.) Memory is allocated for docstrings. 
+
+# 3.) Comment :- description of code .
+# 4.) docstring :- purpose of code.
