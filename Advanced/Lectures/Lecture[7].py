@@ -2,11 +2,11 @@
 
 # :: Youtube Playlist Content : 
 
-# --> lecture-301 : MT-6.
-# --> lecture-302 : MT-7. 
-# --> lecture-303 : MT-8. 
-# --> lecture-304 : MT-9. 
-# --> lecture-305 : MT-10. 
+# --> lecture-326 : Python Database ( PDBC-1 ).
+# --> lecture-327 : PDBC-2. 
+# --> lecture-328 : PDBC-3. 
+# --> lecture-329 : PDBC-4. 
+# --> lecture-330 : PDBC-5. 
 
 
 # _______________________________________________________________________________________________________________________ 

@@ -1,12 +1,17 @@
 
-
 # :: Youtube Playlist Content : 
 
-# --> lecture-336 : PDBC-11.
-# --> lecture-337 : PDBC-12. 
-# --> lecture-338 : PDBC-13. 
-# --> lecture-339 : PDBC-14. 
-# --> lecture-340 : PDBC-15. 
+# --> lecture-361 : RegEx - 11.
+# --> lecture-362 : RegEX - 12. 
+# --> lecture-363 : Reading CSV file in Python. 
+# --> lecture-364 : Checking CSV file Format.
+# --> lecture-365 : Disadvantages of Python. 
 
 
-# _______________________________________________________________________________________________________________________ 
+# _______________________________________________________________________________________________________________________________
+
+
+ 
+
+
+

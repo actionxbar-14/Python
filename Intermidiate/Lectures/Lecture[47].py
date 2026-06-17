@@ -459,6 +459,7 @@
 # 2. User-defined Exceptions : 
 
 # - These are the exceptions which are directed to create by mainly python user. 
+# - Exceptions created by programmers. 
 
 
 

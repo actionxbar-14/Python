@@ -1,12 +1,11 @@
 
-
 # :: Youtube Playlist Content : 
 
-# --> lecture-326 : Python Database ( PDBC-1 ).
-# --> lecture-327 : PDBC-2. 
-# --> lecture-328 : PDBC-3. 
-# --> lecture-329 : PDBC-4. 
-# --> lecture-330 : PDBC-5. 
+# --> lecture-351 : Python (RegEx - 1).
+# --> lecture-352 : RegEX - 2. 
+# --> lecture-353 : RegEX - 3. 
+# --> lecture-354 : RegEX - 4.
+# --> lecture-355 : RegEX - 5. 
 
 
 # _______________________________________________________________________________________________________________________ 

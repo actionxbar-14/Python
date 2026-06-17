@@ -2,11 +2,11 @@
 
 # :: Youtube Playlist Content : 
 
-# --> lecture-321 : Time module in Python.
-# --> lecture-322 : Date time module in Python. 
-# --> lecture-323 : Time delta in Python. 
-# --> lecture-324 : Revision. 
-# --> lecture-325 : Revision. 
+# --> lecture-346 : Python Interview Question and Answers for Freshers.
+# --> lecture-347 : Python Programming Question for interview. 
+# --> lecture-348 : Revision. 
+# --> lecture-349 : Revision.
+# --> lecture-350 : Revision. 
 
 
 # _______________________________________________________________________________________________________________________ 

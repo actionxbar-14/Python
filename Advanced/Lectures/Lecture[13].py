@@ -1,12 +1,11 @@
 
-
 # :: Youtube Playlist Content : 
 
-# --> lecture-331 : PDBC-6.
-# --> lecture-332 : PDBC-7. 
-# --> lecture-333 : PDBC-8. 
-# --> lecture-334 : PDBC-9. 
-# --> lecture-335 : PDBC-10. 
+# --> lecture-356 : RegEX - 6.
+# --> lecture-357 : RegEX - 7. 
+# --> lecture-358 : RegEX - 8. 
+# --> lecture-359 : RegEX - 9.
+# --> lecture-360 : RegEX - 10. 
 
 
 # _______________________________________________________________________________________________________________________ 

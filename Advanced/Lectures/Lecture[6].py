@@ -1,11 +1,12 @@
 
+
 # :: Youtube Playlist Content : 
 
-# --> lecture-296 : Multithreading in Python(MT-1).
-# --> lecture-297 : MT-2. 
-# --> lecture-298 : MT-3. 
-# --> lecture-299 : MT-4. 
-# --> lecture-300 : MT-5. 
+# --> lecture-321 : Time module in Python.
+# --> lecture-322 : Date time module in Python. 
+# --> lecture-323 : Time delta in Python. 
+# --> lecture-324 : Revision. 
+# --> lecture-325 : Revision. 
 
 
 # _______________________________________________________________________________________________________________________ 
