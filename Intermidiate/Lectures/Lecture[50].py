@@ -147,7 +147,7 @@
 
 
 
-# f = open(r'C:\Users\ANUBHAV\Program_Folders\Python\Data\data.txt' , )
+# f = open(r'C:\Users\ANUBHAV\Program_Folders\Python\Data\data.txt' )
 
 # if f:
 #     print("file succusfully open!")
