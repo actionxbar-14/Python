@@ -444,25 +444,3 @@
 
 # ________________________________________________________________________________________________________________________________________
 
-
-
-# :: assert statement  in Exception Handelling: 
-
-# - An assert statement in Python is used to test an expression in the program code. 
-# - Syntax : assert Expression[ , arguments]. 
-
-
-
-# - Ex :  
-
-print("Use of assert statement :")
-
-def ValidAge(age):
-    assert(age >= 0) , "age can't be negative"
-    print("Your age is:" , age)
-
-ValidAge(20)  # output : Your age is: 20
-
-ValidAge(-20)  # output :   assert(age >= 0) , "age can't be negative"
-#            ^^^^^^^^
-# AssertionError: age can't be negative
