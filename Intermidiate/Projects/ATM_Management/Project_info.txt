@@ -1,0 +1,75 @@
+
+=========================================
+       ATM MANAGEMENT SYSTEM
+=========================================
+
+Project Name:
+ATM Management System
+
+Project Type:
+Console Based Application
+
+Objective:
+To simulate the basic working of an ATM
+using Python with Classes, Objects,
+and Functions.
+
+-----------------------------------------
+FEATURES
+-----------------------------------------
+
+1. User Login
+   - Account Number Verification
+   - PIN Authentication
+
+2. Balance Inquiry
+   - Display Current Account Balance
+
+3. Cash Withdrawal
+   - Withdraw Amount
+   - Check Available Balance
+
+4. Deposit Money
+   - Add Amount Into Account
+
+5. Change PIN
+   - Update Account PIN
+
+-----------------------------------------
+CONCEPTS USED
+-----------------------------------------
+
+✔ Classes and Objects
+✔ Functions
+✔ Conditional Statements
+✔ Loops
+✔ File Handling
+✔ Exception Handling
+
+-----------------------------------------
+FILES
+-----------------------------------------
+
+main_atm.py
+project_info.txt
+
+-----------------------------------------
+WORKFLOW
+-----------------------------------------
+
+Login
+ ↓
+Select Operation
+ ↓
+Process Request
+ ↓
+Update Balance
+
+
+-----------------------------------------
+
+Version : 1.0
+Status  : Development
+Created By : actionX
+
+=========================================
