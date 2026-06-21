@@ -1,0 +1,77 @@
+
+:: Concept:
+
+
+1.) Input[ input () ]  :-   To get the user's operation or command. 
+
+2.) Functions :-  To organize the code ( calculating , showing history , etc.). 
+
+3.) Conditions :-  To decide what to do : calculation , history , or clear. 
+
+4.) File Handelling :-  To save / load / clear history in a .txt file. 
+
+5.) Loop(while) :-  To keep the program running until user exists. 
+
+6.) Basic Math :-  For calculator operations ( + , - , * , / ).
+
+
+
+
+
+
+
+
+
+
+:: Pseudocode: 
+
+
+
+1.) START the Program. 
+
+
+2.)  DEFINE the name of the history file (e.g ., "history.txt").
+
+3.)  LOOP forever (while True):
+
+
+      a.) ASK the user to enter a calculation (like 8 + 5) OR a command (history , clear , exit). 
+
+      b.) IF user enters "exit":
+         i.) PRINT a goodbye message. 
+         ii.) BREAK the loop. 
+
+      
+      c.) IF user enters "history":
+          i.) TRY to open the history file for reading.
+          ii.) IF file exists and not empty , PRINT each line (calculation). 
+          iii.) IF file doesn't exist or is empty , PRINT "No history found."
+          iv.) CONTINUE to the next loop. 
+
+
+
+       d.) IF user enters "clear":
+          i.) OPEN the history file and overwrite it with nothing (empty it). 
+          ii.) PRINT "History cleared."
+          iii.) CONTINUE to the next loop.
+
+       
+       e.) OTHERWISE (assume user entered a calculation):
+           i.) TRY to parse the input to get the number and the operator (You can split the input by space , e.g ., 
+              "8 + 5" would split into ["8", "+", "5"]).
+           ii.) IF input in not valid , PRINT "Invalid input" and CONTINUE.
+
+           iii.) PERFORM the calculation using if/elif:
+               - If + , add 
+               - IF - , subtract 
+               - IF * , multiply
+                - IF / , divide (check for division by zero).
+
+            iv.) SHOW the result to the user. 
+
+            v.) WRITE the calculation and result to the history file.  (e.g ., "8 + 5 = 13").
+
+
+4. )  END the Program.
+
+

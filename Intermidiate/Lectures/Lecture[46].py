@@ -370,7 +370,7 @@
 
 
 
-# NOTE :  we have tp create __len__() methof then it is able to giver the len output. 
+# NOTE :  we have to create __len__() method then it is able to giver the len output. 
 
 
 
