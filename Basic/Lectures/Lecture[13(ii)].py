@@ -174,8 +174,8 @@
 # 8. split(): Splits the string at the specified separator and returns a list.
 
 # name = "Hello Anubhav"
-# split_name = name.split(',')
-# print(split_name)  #output : ['Hello Anubhav']
+# split_name = name.split(' ')
+# print(split_name)  #output : ['Hello', 'Anubhav']
 
 
 

@@ -1,6 +1,9 @@
  
                                     # TOPIC : OOPS in Python
 
+
+
+
 # :: There are mainly two ways of programming in Python : 
 
 # 1. Procedural Programming.
@@ -8,7 +11,7 @@
 
 
 
-# :- OOPs : Object Oriented Programming : 
+# :- OOPs [ Object Oriented Programming ] : 
 
 # A way of organizing code by creating "blueprints" ( called classes ) to represent real - world things like student , car or house. These blueprints help you create objects ( individual examples of those things ) and define their behavior.
 
@@ -122,7 +125,7 @@
 
 
 #----> #  __init__ method - constructor , value initialized : fixed.
-#----> #  refrence or connection build between class and object : fixed
+#----> #  refrence or connection build between class and object : fixed.
 
 # class Student :
 
@@ -136,6 +139,7 @@
 # #----> # Custom Method  
 #     def student_details(self):
 #         print(f"{self.name} is {self.age} years old have {self.percentage} % and is in team {self.team}")
+
 
 
 
@@ -382,31 +386,31 @@
 
 
 # #-----> this is parent class
-# class Student:
+class Student:
 
-#     def __init__(self , name , age ,  grade , percentage):
-#         self.name = name
-#         self.age = age
-#         self.grade = grade
-#         self.percentage = percentage
-
-
-#     def print_student_details(self):  # methon - abstraction
-#         print(f"The name of student is {self.name} is {self.age} years old , got grade {self.grade} and {self.percentage + 1} %")
+    def __init__(self , name , age ,  grade , percentage):
+        self.name = name
+        self.age = age
+        self.grade = grade
+        self.percentage = percentage
 
 
-
-
-# # Object - instance of class
-# student1 = Student("Anubhav" , 21 , 'A' , 95)
-# # student1.print_student_details()
-# # print(student1.__dict__)
+    def print_student_details(self):  # methon - abstraction
+        print(f"The name of student is {self.name} is {self.age} years old , got grade {self.grade} and {self.percentage + 1} %")
 
 
 
-# student2 = Student("Neha" , 21 , 'A+' , 97)
-# # student1.print_student_details()
-# # print(student2.__dict__)
+
+# Object - instance of class
+student1 = Student("Anubhav" , 21 , 'A' , 95)
+# student1.print_student_details()
+# print(student1.__dict__)
+
+
+
+student2 = Student("Neha" , 21 , 'A+' , 97)
+# student1.print_student_details()
+# print(student2.__dict__)
 
 
 
@@ -414,23 +418,23 @@
 
 # #-----> this is child class
 
-# # Graduatestudent child class inherit prop and methods from Student Parent class
-# class GraduateStudent(Student):
+# Graduatestudent child class inherit prop and methods from Student Parent class
+class GraduateStudent(Student):
 
-#     def __init__(self, name, age, grade, percentage, stream): # here we can take old parameters from parent class and new parameters in child class.
-#         self.stream = stream  # new attribute in child class
-#         super().__init__(name ,age, grade , percentage,)  #---> Super() calls the parent class init
+    def __init__(self, name, age, grade, percentage, stream): # here we can take old parameters from parent class and new parameters in child class.
+        self.stream = stream  # new attribute in child class
+        super().__init__(name ,age, grade , percentage,)  #---> Super() calls the parent class init
         
    
-#     def student_details(self):
-#         super().print_student_details() # method from parent class -- > print(f"stream is {self.stream}")
+    def student_details(self):
+        super().print_student_details() # method from parent class -- > print(f"stream is {self.stream}")
         
      
 
-# Grad_Student1 = GraduateStudent('keshav', 'A',22,  96, 'PCM')
-# # print(Grad_Student1.name)   # Output : keshav
-# # print(Grad_Student1.stream) # Output : PCM
-# Grad_Student1.student_details() # Output : The name of student is keshav is A years old , got grade 22 and 97 %
+Grad_Student1 = GraduateStudent('keshav', 'A',22,  96, 'PCM')
+# print(Grad_Student1.name)   # Output : keshav
+# print(Grad_Student1.stream) # Output : PCM
+Grad_Student1.student_details() # Output : The name of student is keshav is A years old , got grade 22 and 97 %
 
 
 

@@ -112,14 +112,18 @@
 # 1. Lexical Analysis : 
 # - The Interpreter breaks down the code into smaller parts called tokens. identifying words , numbers , symbols and punctuation.
 
+
 # 2. Syntax Parsing : 
 # - It Checks the structure of the code to ensure it follow the rules of python syntax. if there are any errors, like missing parantheses or incorrect indentation , it stops and shows a SyntaxError.
+
 
 # 3. ByteCode Generation : 
 # - Once the code is validated. the Interpreter translates it into a simpler set of Instructions called bytecode. This bytecode is easier for the computer to understand and execute.
 
+
 # 4. Execution by PVM [ Python Virtual Machine ] :
 # - The Python Virtual Machine (PVM) takes the bytecode and runs it step by step. It follows the Instructions and performs Calculations , assigns values to variables , and executes functions.
+
 
 # 5. Error Handelling and Output : 
 # - If there are any errors during execution , like trying to divide by zero or accessing a variable that does not exists  , the Interpreter raises an exception. If the code runs without errors , it didplays any output , such as printed message or returned values , to the user.
@@ -137,7 +141,7 @@
 
 # :: Interpreter : 
 
-# -  an Interpreter translates and executes a source code line by line as the code runs.
+# -  An Interpreter translates and executes a source code line by line as the code runs.
 
 # - Execution : Line by Line.
 

@@ -14,7 +14,7 @@
 # lambda arguments : expression
 
    # --> arguments : input to the function.
-   # --> Expression : A single statement or operation that the lamda function.
+   # --> Expression : A single statement or operation that the lambda function.
 
 
 # - Example : 
@@ -637,7 +637,7 @@
 
 # :-  ASCENDING ORDER :
 
-# data = { 'a' : 5 , 'b'  : 9 , 'c'  : 2 , 'd'  : 7}
+# data = {'a' : 5 , 'b'  : 9 , 'c'  : 2 , 'd'  : 7}
  
 # print(data.items())   # Output : dict_items([('a', 5), ('b', 9), ('c', 2), ('d', 7)])
 
