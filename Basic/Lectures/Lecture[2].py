@@ -97,7 +97,7 @@ print(type(b3))  # output : <class 'tuple'>
 
 
 #  3. Mapping : Dictionary - > {key , value} pair.
-#  - Dictionary : {key : value }
+#  - Dictionary : {key : value}
 
 my_dict = { 'name' : "Anubhav" , 'age' : 21 , 'city' : 'Rajpura'}
 print(my_dict)  # output : {'name': 'Anubhav', 'age': 20, 'city': 'Rajpura'}

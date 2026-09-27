@@ -1,15 +1,16 @@
 
-                    #Topic : Introduction to Python Programming
+                                      #Topic : Introduction to Python Programming
 
 
 
 
-                #                 PYTHON
+                                #                 PYTHON
 
-                #   1. Beginner Friendly       5. Simple Syntax
-                #   2. Easy to learn           6. Community Support
-                #   3. Scalability             7. Extensive Libraries
-                #   4. Free( Open Source )     8. Dynamic Typed
+
+                            #   1. Beginner Friendly       5. Simple Syntax
+                            #   2. Easy to learn           6. Community Support
+                            #   3. Scalability             7. Extensive Libraries
+                            #   4. Free( Open Source )     8. Dynamic Typed
 
 
 
