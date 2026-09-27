@@ -285,3 +285,14 @@
 #         return "Weak : Password must have 8 character"
 
 #     elif
+
+
+
+
+
+age = int(input("Enter the age : "))
+
+vote =  f"{age} age is eligible for voting" if age > 18 else f"{age} age is not eligible for voting"
+
+
+print(vote)
